@@ -4,10 +4,11 @@
   "description": "A modern online learning platform with student and admin portals",
   "main": "server/server.js",
   "scripts": {
-    "dev": "concurrently \"npm run server\" \"npm run client\" \"npm run admin\"",
+    "dev": "node server/server.js",
     "server": "node server/server.js",
     "client": "node server/client-server.js",
-    "admin": "node server/admin-server.js"
+    "admin": "node server/admin-server.js",
+    "start": "node server/server.js"
   },
   "dependencies": {
     "express": "^4.18.2",

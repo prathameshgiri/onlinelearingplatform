@@ -5,7 +5,7 @@ const path = require('path');
 const { v4: uuidv4 } = require('uuid');
 
 const app = express();
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 const DB_PATH = path.join(__dirname, 'db.json');
 
 // Middleware
@@ -659,7 +659,20 @@ app.delete('/api/contacts/:id', (req, res) => {
   }
 });
 
+
+// Serve Admin Panel
+app.use('/admin', express.static(path.join(__dirname, '../admin')));
+
+// Serve Client Portal
+app.use(express.static(path.join(__dirname, '../client')));
+
+// Fallback to index.html for client SPA-like routing if needed
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '../client/index.html'));
+});
+
 // Start server
+
 app.listen(PORT, () => {
   console.log(`🚀 API Server running on http://localhost:${PORT}`);
 });

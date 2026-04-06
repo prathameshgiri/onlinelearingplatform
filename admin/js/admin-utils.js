@@ -1,5 +1,5 @@
 // ===== ADMIN UTILITY FUNCTIONS =====
-const API_BASE = 'http://localhost:5000/api';
+const API_BASE = '/api';
 
 // --- API Helper ---
 async function adminApi(endpoint, options = {}) {
