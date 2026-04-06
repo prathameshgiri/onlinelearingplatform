@@ -2,8 +2,6 @@
 
 A modern, full-stack online learning platform with a student portal and admin dashboard. Built with vanilla HTML/CSS/JavaScript and Node.js/Express.
 
-![LearnHub](https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&h=400&fit=crop)
-
 ## ✨ Features
 
 ### 🎓 Student Portal (Port 3000)
@@ -185,16 +183,16 @@ A modern, full-stack online learning platform with a student portal and admin da
 ## 📸 Screenshots
 
 ### Student Portal
-- Landing page with hero section and floating cards
-- Course catalog with search and filters
-- Course detail with enrollment
-- Student dashboard with progress tracking
+![Landing Page](screenshots/landing.png)
+<br>
+![Course Catalog](screenshots/catalog.png)
+<br>
+![Student Dashboard](screenshots/dashboard.png)
 
 ### Admin Panel
-- Analytics dashboard with live charts
-- User management with edit/delete
-- Course management with add/edit modals
-- Enrollment tracking with auto-refresh
+![Admin Dashboard](screenshots/admin-dashboard.png)
+<br>
+![User Management](screenshots/admin-users.png)
 
 ## 👩‍💻 Credits
 
