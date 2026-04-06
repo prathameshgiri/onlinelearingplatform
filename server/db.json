@@ -1,0 +1,1846 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "name": "Pranjali Sangve",
+      "email": "pranjali@example.com",
+      "password": "password123",
+      "avatar": "",
+      "joinedAt": "2025-08-15T10:30:00Z"
+    },
+    {
+      "id": "u2",
+      "name": "Aarav Sharma",
+      "email": "aarav.sharma@example.com",
+      "password": "password123",
+      "avatar": "",
+      "joinedAt": "2025-09-01T14:00:00Z"
+    },
+    {
+      "id": "u3",
+      "name": "Demo Student",
+      "email": "student@demo.com",
+      "password": "demo1234",
+      "avatar": "",
+      "joinedAt": "2025-09-10T09:00:00Z"
+    },
+    {
+      "id": "u4",
+      "name": "Sneha Patil",
+      "email": "sneha.patil@example.com",
+      "password": "password123",
+      "avatar": "",
+      "joinedAt": "2025-09-20T11:30:00Z"
+    },
+    {
+      "id": "u5",
+      "name": "Rohit Deshmukh",
+      "email": "rohit.d@example.com",
+      "password": "password123",
+      "avatar": "",
+      "joinedAt": "2025-10-05T08:00:00Z"
+    },
+    {
+      "id": "u6",
+      "name": "Ananya Kulkarni",
+      "email": "ananya.k@example.com",
+      "password": "password123",
+      "avatar": "",
+      "joinedAt": "2025-10-12T16:00:00Z"
+    },
+    {
+      "id": "u7",
+      "name": "Vikram Joshi",
+      "email": "vikram.joshi@example.com",
+      "password": "password123",
+      "avatar": "",
+      "joinedAt": "2025-10-28T09:45:00Z"
+    },
+    {
+      "id": "u8",
+      "name": "Pooja Gaikwad",
+      "email": "pooja.g@example.com",
+      "password": "password123",
+      "avatar": "",
+      "joinedAt": "2025-11-01T13:20:00Z"
+    },
+    {
+      "id": "u9",
+      "name": "Aditya More",
+      "email": "aditya.more@example.com",
+      "password": "password123",
+      "avatar": "",
+      "joinedAt": "2025-11-10T10:00:00Z"
+    },
+    {
+      "id": "u10",
+      "name": "Shruti Bhosale",
+      "email": "shruti.b@example.com",
+      "password": "password123",
+      "avatar": "",
+      "joinedAt": "2025-11-18T14:30:00Z"
+    },
+    {
+      "id": "u11",
+      "name": "Manish Pawar",
+      "email": "manish.pawar@example.com",
+      "password": "password123",
+      "avatar": "",
+      "joinedAt": "2025-11-25T07:00:00Z"
+    },
+    {
+      "id": "u12",
+      "name": "Kavita Shinde",
+      "email": "kavita.s@example.com",
+      "password": "password123",
+      "avatar": "",
+      "joinedAt": "2025-12-01T15:45:00Z"
+    },
+    {
+      "id": "u13",
+      "name": "Saurabh Jadhav",
+      "email": "saurabh.j@example.com",
+      "password": "password123",
+      "avatar": "",
+      "joinedAt": "2025-12-10T11:00:00Z"
+    },
+    {
+      "id": "u14",
+      "name": "Neha Wagh",
+      "email": "neha.wagh@example.com",
+      "password": "password123",
+      "avatar": "",
+      "joinedAt": "2025-12-20T08:30:00Z"
+    },
+    {
+      "id": "u15",
+      "name": "Rajesh Kamble",
+      "email": "rajesh.k@example.com",
+      "password": "password123",
+      "avatar": "",
+      "joinedAt": "2026-01-05T12:00:00Z"
+    },
+    {
+      "id": "u16",
+      "name": "Divya Mane",
+      "email": "divya.mane@example.com",
+      "password": "password123",
+      "avatar": "",
+      "joinedAt": "2026-01-12T09:20:00Z"
+    },
+    {
+      "id": "u17",
+      "name": "Akash Nikam",
+      "email": "akash.nikam@example.com",
+      "password": "password123",
+      "avatar": "",
+      "joinedAt": "2026-01-20T14:10:00Z"
+    },
+    {
+      "id": "u18",
+      "name": "Swati Chavan",
+      "email": "swati.c@example.com",
+      "password": "password123",
+      "avatar": "",
+      "joinedAt": "2026-01-28T10:45:00Z"
+    },
+    {
+      "id": "u19",
+      "name": "Tushar Salunkhe",
+      "email": "tushar.s@example.com",
+      "password": "password123",
+      "avatar": "",
+      "joinedAt": "2026-02-05T16:30:00Z"
+    },
+    {
+      "id": "u20",
+      "name": "Priya Thombare",
+      "email": "priya.t@example.com",
+      "password": "password123",
+      "avatar": "",
+      "joinedAt": "2026-02-14T08:00:00Z"
+    },
+    {
+      "id": "u21",
+      "name": "Kunal Ingale",
+      "email": "kunal.i@example.com",
+      "password": "password123",
+      "avatar": "",
+      "joinedAt": "2026-02-22T11:15:00Z"
+    },
+    {
+      "id": "u22",
+      "name": "Rutuja Kale",
+      "email": "rutuja.kale@example.com",
+      "password": "password123",
+      "avatar": "",
+      "joinedAt": "2026-03-01T13:00:00Z"
+    },
+    {
+      "id": "u23",
+      "name": "Omkar Deshpande",
+      "email": "omkar.d@example.com",
+      "password": "password123",
+      "avatar": "",
+      "joinedAt": "2026-03-08T07:30:00Z"
+    },
+    {
+      "id": "u24",
+      "name": "Sakshi Yadav",
+      "email": "sakshi.y@example.com",
+      "password": "password123",
+      "avatar": "",
+      "joinedAt": "2026-03-15T15:00:00Z"
+    },
+    {
+      "id": "u25",
+      "name": "Tejas Sonawane",
+      "email": "tejas.s@example.com",
+      "password": "password123",
+      "avatar": "",
+      "joinedAt": "2026-03-22T09:40:00Z"
+    }
+  ],
+  "admins": [
+    {
+      "id": "a1",
+      "name": "Admin User",
+      "email": "admin@learnhub.com",
+      "password": "admin123"
+    }
+  ],
+  "courses": [
+    {
+      "id": "c1",
+      "title": "Complete Web Development Bootcamp 2026",
+      "description": "Master HTML, CSS, JavaScript, React, Node.js, MongoDB, and more. Build 25+ real-world projects including e-commerce sites, social media apps, and portfolio websites. Become a full-stack web developer from absolute scratch with hands-on coding exercises.",
+      "instructor": "Prathamesh Giri",
+      "category": "Web Development",
+      "level": "Beginner",
+      "duration": "52 hours",
+      "lessons": 186,
+      "rating": 4.9,
+      "students": 18450,
+      "price": 2999,
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&fit=crop",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "MongoDB"
+      ],
+      "createdAt": "2025-08-10T08:00:00Z"
+    },
+    {
+      "id": "c2",
+      "title": "Python for Data Science & Machine Learning",
+      "description": "Learn Python programming from basics to advanced. Master data analysis with Pandas & NumPy, create visualizations with Matplotlib & Seaborn, build ML models with Scikit-Learn, and deep learning with TensorFlow & PyTorch. Includes 15+ real projects.",
+      "instructor": "Prof. James Anderson",
+      "category": "Data Science",
+      "level": "Intermediate",
+      "duration": "45 hours",
+      "lessons": 164,
+      "rating": 4.9,
+      "students": 14801,
+      "price": 3499,
+      "image": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=600&h=400&fit=crop",
+      "tags": [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "Scikit-Learn",
+        "TensorFlow",
+        "PyTorch"
+      ],
+      "createdAt": "2025-08-20T10:00:00Z"
+    },
+    {
+      "id": "c3",
+      "title": "UI/UX Design Masterclass - Figma & Beyond",
+      "description": "Design beautiful, user-friendly interfaces from scratch. Learn Figma, Adobe XD, design principles, prototyping, wireframing, user research, accessibility, and create a professional portfolio. Industry-standard design workflow included.",
+      "instructor": "Emily Chen",
+      "category": "Design",
+      "level": "Beginner",
+      "duration": "34 hours",
+      "lessons": 128,
+      "rating": 4.8,
+      "students": 11650,
+      "price": 2499,
+      "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&h=400&fit=crop",
+      "tags": [
+        "Figma",
+        "Adobe XD",
+        "UI Design",
+        "UX Research",
+        "Prototyping",
+        "Wireframing"
+      ],
+      "createdAt": "2025-09-05T12:00:00Z"
+    },
+    {
+      "id": "c4",
+      "title": "AWS Cloud Computing - Solutions Architect",
+      "description": "Master Amazon Web Services from beginner to professional. Deploy scalable applications with EC2, S3, Lambda, DynamoDB, CloudFront, VPC, IAM and more. Complete preparation for AWS Solutions Architect Associate certification.",
+      "instructor": "Michael Roberts",
+      "category": "Cloud Computing",
+      "level": "Advanced",
+      "duration": "40 hours",
+      "lessons": 145,
+      "rating": 4.7,
+      "students": 8430,
+      "price": 3999,
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&h=400&fit=crop",
+      "tags": [
+        "AWS",
+        "EC2",
+        "S3",
+        "Lambda",
+        "DynamoDB",
+        "DevOps",
+        "CloudFront"
+      ],
+      "createdAt": "2025-09-15T09:00:00Z"
+    },
+    {
+      "id": "c5",
+      "title": "Flutter & Dart - Complete Mobile App Development",
+      "description": "Build beautiful, natively compiled mobile applications for iOS and Android from a single codebase. Master Dart programming, Flutter widgets, state management with Provider & Riverpod, Firebase integration, REST APIs and publish to app stores.",
+      "instructor": "Dr. Priya Sharma",
+      "category": "Mobile Development",
+      "level": "Intermediate",
+      "duration": "38 hours",
+      "lessons": 132,
+      "rating": 4.8,
+      "students": 9820,
+      "price": 2799,
+      "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600&h=400&fit=crop",
+      "tags": [
+        "Flutter",
+        "Dart",
+        "iOS",
+        "Android",
+        "Firebase",
+        "Provider"
+      ],
+      "createdAt": "2025-10-01T11:00:00Z"
+    },
+    {
+      "id": "c6",
+      "title": "Ethical Hacking & Cybersecurity Masterclass",
+      "description": "Learn ethical hacking, penetration testing, network security, cryptography, OWASP Top 10, and cyber defense strategies. Master tools like Kali Linux, Metasploit, Wireshark, Burp Suite. Prepare for CEH certification.",
+      "instructor": "Alex Turner",
+      "category": "Cybersecurity",
+      "level": "Intermediate",
+      "duration": "36 hours",
+      "lessons": 125,
+      "rating": 4.7,
+      "students": 10200,
+      "price": 3299,
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600&h=400&fit=crop",
+      "tags": [
+        "Ethical Hacking",
+        "Kali Linux",
+        "Penetration Testing",
+        "Network Security",
+        "Cryptography"
+      ],
+      "createdAt": "2025-10-10T14:00:00Z"
+    },
+    {
+      "id": "c7",
+      "title": "Digital Marketing Complete Guide 2026",
+      "description": "Master SEO, social media marketing, Google Ads, Facebook Ads, content marketing, email marketing, affiliate marketing, and analytics. Learn to grow any business online with data-driven marketing strategies and real campaign management.",
+      "instructor": "Lisa Johnson",
+      "category": "Marketing",
+      "level": "Beginner",
+      "duration": "30 hours",
+      "lessons": 108,
+      "rating": 4.6,
+      "students": 15200,
+      "price": 1999,
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
+      "tags": [
+        "SEO",
+        "Google Ads",
+        "Social Media",
+        "Content Marketing",
+        "Email Marketing"
+      ],
+      "createdAt": "2025-10-20T08:00:00Z"
+    },
+    {
+      "id": "c8",
+      "title": "Blockchain, Solidity & Web3 Development",
+      "description": "Build decentralized applications (dApps) using Solidity, Ethereum, Hardhat, and Web3.js. Understand smart contracts, DeFi protocols, NFTs, DAOs, and token economics. Deploy your own cryptocurrency and NFT marketplace.",
+      "instructor": "David Kim",
+      "category": "Blockchain",
+      "level": "Advanced",
+      "duration": "42 hours",
+      "lessons": 148,
+      "rating": 4.6,
+      "students": 6150,
+      "price": 4499,
+      "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=600&h=400&fit=crop",
+      "tags": [
+        "Blockchain",
+        "Solidity",
+        "Ethereum",
+        "Web3",
+        "NFT",
+        "DeFi",
+        "Hardhat"
+      ],
+      "createdAt": "2025-11-01T10:00:00Z"
+    },
+    {
+      "id": "c9",
+      "title": "React.js & Next.js - Advanced Frontend Development",
+      "description": "Deep dive into React.js with hooks, context API, Redux Toolkit, React Router v6. Master Next.js 14 with App Router, Server Components, API routes, SSR, SSG, ISR. Build production-ready apps with TypeScript and Tailwind CSS.",
+      "instructor": "Dr. Sarah Mitchell",
+      "category": "Web Development",
+      "level": "Intermediate",
+      "duration": "44 hours",
+      "lessons": 158,
+      "rating": 4.9,
+      "students": 13200,
+      "price": 3499,
+      "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=600&h=400&fit=crop",
+      "tags": [
+        "React",
+        "Next.js",
+        "Redux",
+        "TypeScript",
+        "Tailwind CSS"
+      ],
+      "createdAt": "2025-11-10T08:30:00Z"
+    },
+    {
+      "id": "c10",
+      "title": "Java Programming - Complete Core to Advanced",
+      "description": "Master Java from fundamentals to advanced concepts. Learn OOP, collections, streams, multithreading, JDBC, Spring Boot, REST APIs, microservices, JUnit testing. Build enterprise-grade applications with clean architecture patterns.",
+      "instructor": "Prof. Rajesh Kumar",
+      "category": "Programming",
+      "level": "Beginner",
+      "duration": "55 hours",
+      "lessons": 198,
+      "rating": 4.7,
+      "students": 12500,
+      "price": 2799,
+      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&fit=crop",
+      "tags": [
+        "Java",
+        "Spring Boot",
+        "OOP",
+        "Microservices",
+        "REST API",
+        "JDBC"
+      ],
+      "createdAt": "2025-11-20T09:00:00Z"
+    },
+    {
+      "id": "c11",
+      "title": "DevOps Engineering - CI/CD, Docker & Kubernetes",
+      "description": "Master DevOps practices with Docker containerization, Kubernetes orchestration, Jenkins & GitHub Actions CI/CD, Terraform IaC, Ansible automation, Prometheus monitoring. Deploy microservices at scale on AWS and GCP.",
+      "instructor": "Michael Roberts",
+      "category": "DevOps",
+      "level": "Advanced",
+      "duration": "48 hours",
+      "lessons": 170,
+      "rating": 4.8,
+      "students": 7800,
+      "price": 4299,
+      "image": "https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?w=600&h=400&fit=crop",
+      "tags": [
+        "Docker",
+        "Kubernetes",
+        "Jenkins",
+        "CI/CD",
+        "Terraform",
+        "AWS"
+      ],
+      "createdAt": "2025-12-01T11:00:00Z"
+    },
+    {
+      "id": "c12",
+      "title": "Artificial Intelligence & Deep Learning with Python",
+      "description": "Comprehensive AI course covering neural networks, CNNs, RNNs, GANs, transformers, NLP with BERT & GPT, computer vision, reinforcement learning. Build AI projects including chatbots, image classifiers, and recommendation systems.",
+      "instructor": "Prof. James Anderson",
+      "category": "Artificial Intelligence",
+      "level": "Advanced",
+      "duration": "50 hours",
+      "lessons": 178,
+      "rating": 4.9,
+      "students": 11400,
+      "price": 4999,
+      "image": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=600&h=400&fit=crop",
+      "tags": [
+        "AI",
+        "Deep Learning",
+        "Neural Networks",
+        "NLP",
+        "Computer Vision",
+        "TensorFlow"
+      ],
+      "createdAt": "2025-12-10T08:00:00Z"
+    },
+    {
+      "id": "c13",
+      "title": "Complete C++ Programming - DSA & Competitive Coding",
+      "description": "Learn C++ from basics to advanced. Master data structures (arrays, linked lists, trees, graphs), algorithms (sorting, searching, DP, greedy), STL, and competitive programming techniques. 500+ practice problems included.",
+      "instructor": "Prof. Amit Verma",
+      "category": "Programming",
+      "level": "Intermediate",
+      "duration": "60 hours",
+      "lessons": 220,
+      "rating": 4.8,
+      "students": 16800,
+      "price": 2499,
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&h=400&fit=crop",
+      "tags": [
+        "C++",
+        "Data Structures",
+        "Algorithms",
+        "Competitive Programming",
+        "STL"
+      ],
+      "createdAt": "2025-12-20T10:30:00Z"
+    },
+    {
+      "id": "c14",
+      "title": "Angular Complete Course - Build Enterprise Apps",
+      "description": "Master Angular 17+ with TypeScript, RxJS, NgRx state management, Angular Material, reactive forms, routing, guards, interceptors, testing with Jasmine & Karma. Build large-scale enterprise applications with best practices.",
+      "instructor": "Dr. Priya Sharma",
+      "category": "Web Development",
+      "level": "Intermediate",
+      "duration": "40 hours",
+      "lessons": 142,
+      "rating": 4.6,
+      "students": 7200,
+      "price": 2999,
+      "image": "https://images.unsplash.com/photo-1627398242454-45a1465c2479?w=600&h=400&fit=crop",
+      "tags": [
+        "Angular",
+        "TypeScript",
+        "RxJS",
+        "NgRx",
+        "Angular Material"
+      ],
+      "createdAt": "2026-01-05T09:00:00Z"
+    },
+    {
+      "id": "c15",
+      "title": "SQL & Database Design - MySQL, PostgreSQL & MongoDB",
+      "description": "Master relational and NoSQL databases. Learn SQL from basics to advanced queries, database design, normalization, indexing, stored procedures, triggers. Cover MySQL, PostgreSQL, and MongoDB with real-world projects.",
+      "instructor": "Prof. Rajesh Kumar",
+      "category": "Database",
+      "level": "Beginner",
+      "duration": "35 hours",
+      "lessons": 122,
+      "rating": 4.7,
+      "students": 9500,
+      "price": 2299,
+      "image": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=600&h=400&fit=crop",
+      "tags": [
+        "SQL",
+        "MySQL",
+        "PostgreSQL",
+        "MongoDB",
+        "Database Design"
+      ],
+      "createdAt": "2026-01-15T12:00:00Z"
+    },
+    {
+      "id": "c16",
+      "title": "iOS App Development with Swift & SwiftUI",
+      "description": "Build stunning iOS apps with Swift 5 and SwiftUI. Learn UIKit, Core Data, CloudKit, MapKit, Push Notifications, In-App Purchases, ARKit basics. Publish your apps to the App Store with complete deployment guide.",
+      "instructor": "Emma Wilson",
+      "category": "Mobile Development",
+      "level": "Intermediate",
+      "duration": "42 hours",
+      "lessons": 150,
+      "rating": 4.7,
+      "students": 6400,
+      "price": 3299,
+      "image": "https://images.unsplash.com/photo-1621839673705-6617adf9e890?w=600&h=400&fit=crop",
+      "tags": [
+        "Swift",
+        "SwiftUI",
+        "iOS",
+        "Xcode",
+        "Core Data",
+        "ARKit"
+      ],
+      "createdAt": "2026-01-25T14:00:00Z"
+    },
+    {
+      "id": "c17",
+      "title": "Graphic Design with Adobe Creative Suite",
+      "description": "Master Photoshop, Illustrator, and InDesign from beginner to professional. Learn photo manipulation, vector graphics, typography, logo design, branding, print design, and social media graphics. Build a stunning portfolio.",
+      "instructor": "Emily Chen",
+      "category": "Design",
+      "level": "Beginner",
+      "duration": "38 hours",
+      "lessons": 135,
+      "rating": 4.6,
+      "students": 8900,
+      "price": 2699,
+      "image": "https://images.unsplash.com/photo-1626785774573-4b799315345d?w=600&h=400&fit=crop",
+      "tags": [
+        "Photoshop",
+        "Illustrator",
+        "InDesign",
+        "Logo Design",
+        "Branding"
+      ],
+      "createdAt": "2026-02-01T08:30:00Z"
+    },
+    {
+      "id": "c18",
+      "title": "Machine Learning with R Programming",
+      "description": "Learn R programming for statistical analysis and machine learning. Cover regression, classification, clustering, time series, random forests, SVM, neural networks. Apply ML techniques to real-world datasets with ggplot2 visualizations.",
+      "instructor": "Dr. Meena Iyer",
+      "category": "Data Science",
+      "level": "Intermediate",
+      "duration": "32 hours",
+      "lessons": 115,
+      "rating": 4.5,
+      "students": 5600,
+      "price": 2999,
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
+      "tags": [
+        "R Programming",
+        "Statistics",
+        "Machine Learning",
+        "ggplot2",
+        "Data Analysis"
+      ],
+      "createdAt": "2026-02-10T10:00:00Z"
+    },
+    {
+      "id": "c19",
+      "title": "Unity Game Development - 2D & 3D Games with C#",
+      "description": "Create amazing 2D and 3D games with Unity and C#. Learn game physics, animation, AI, multiplayer networking, VR basics, asset management. Build 10+ complete games including platformer, RPG, FPS, and puzzle games.",
+      "instructor": "Chris Martinez",
+      "category": "Game Development",
+      "level": "Beginner",
+      "duration": "50 hours",
+      "lessons": 182,
+      "rating": 4.8,
+      "students": 10500,
+      "price": 3499,
+      "image": "https://images.unsplash.com/photo-1556438064-2d7646166914?w=600&h=400&fit=crop",
+      "tags": [
+        "Unity",
+        "C#",
+        "Game Dev",
+        "2D Games",
+        "3D Games",
+        "VR"
+      ],
+      "createdAt": "2026-02-18T09:00:00Z"
+    },
+    {
+      "id": "c20",
+      "title": "Power BI & Tableau - Data Visualization Mastery",
+      "description": "Master data visualization and business intelligence with Power BI and Tableau. Build interactive dashboards, create DAX formulas, connect to data sources, design compelling reports. Perfect for data analysts and business professionals.",
+      "instructor": "Dr. Meena Iyer",
+      "category": "Data Science",
+      "level": "Beginner",
+      "duration": "28 hours",
+      "lessons": 98,
+      "rating": 4.6,
+      "students": 8200,
+      "price": 2499,
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
+      "tags": [
+        "Power BI",
+        "Tableau",
+        "Data Visualization",
+        "DAX",
+        "Business Intelligence"
+      ],
+      "createdAt": "2026-02-25T11:30:00Z"
+    },
+    {
+      "id": "c21",
+      "title": "Rust Programming - Systems Programming Masterclass",
+      "description": "Learn Rust from scratch. Master ownership, borrowing, lifetimes, traits, generics, async programming, error handling, and concurrency. Build system-level applications, CLI tools, and web servers with Actix-web and Tokio.",
+      "instructor": "Prof. Amit Verma",
+      "category": "Programming",
+      "level": "Advanced",
+      "duration": "38 hours",
+      "lessons": 134,
+      "rating": 4.7,
+      "students": 4800,
+      "price": 3799,
+      "image": "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=600&h=400&fit=crop",
+      "tags": [
+        "Rust",
+        "Systems Programming",
+        "Concurrency",
+        "Async",
+        "Tokio"
+      ],
+      "createdAt": "2026-03-01T08:00:00Z"
+    },
+    {
+      "id": "c22",
+      "title": "Figma Advanced - Design Systems & Component Libraries",
+      "description": "Take your Figma skills to the next level. Build scalable design systems, create auto-layout components, master variants, interactive prototyping, plugins, and handoff to developers. Collaborate with teams efficiently.",
+      "instructor": "Emily Chen",
+      "category": "Design",
+      "level": "Advanced",
+      "duration": "25 hours",
+      "lessons": 88,
+      "rating": 4.8,
+      "students": 5200,
+      "price": 2799,
+      "image": "https://images.unsplash.com/photo-1609921212029-bb5a28e60960?w=600&h=400&fit=crop",
+      "tags": [
+        "Figma",
+        "Design Systems",
+        "Components",
+        "Auto Layout",
+        "Prototyping"
+      ],
+      "createdAt": "2026-03-05T13:00:00Z"
+    },
+    {
+      "id": "c23",
+      "title": "Node.js & Express.js - Backend Development Masterclass",
+      "description": "Build robust backend systems with Node.js and Express.js. Master REST APIs, GraphQL, authentication with JWT & OAuth, MongoDB & PostgreSQL integration, file uploads, WebSockets, caching with Redis, and deployment.",
+      "instructor": "Dr. Sarah Mitchell",
+      "category": "Web Development",
+      "level": "Intermediate",
+      "duration": "42 hours",
+      "lessons": 152,
+      "rating": 4.8,
+      "students": 11800,
+      "price": 3199,
+      "image": "https://images.unsplash.com/photo-1627398242454-45a1465c2479?w=600&h=400&fit=crop",
+      "tags": [
+        "Node.js",
+        "Express.js",
+        "REST API",
+        "GraphQL",
+        "JWT",
+        "MongoDB",
+        "Redis"
+      ],
+      "createdAt": "2026-03-10T09:30:00Z"
+    },
+    {
+      "id": "c24",
+      "title": "Google Cloud Platform - Professional Cloud Architect",
+      "description": "Master GCP services including Compute Engine, GKE, Cloud Functions, BigQuery, Cloud SQL, Pub/Sub, Cloud Storage, IAM. Prepare for the GCP Professional Cloud Architect certification with hands-on labs.",
+      "instructor": "Michael Roberts",
+      "category": "Cloud Computing",
+      "level": "Advanced",
+      "duration": "38 hours",
+      "lessons": 130,
+      "rating": 4.6,
+      "students": 5500,
+      "price": 3999,
+      "image": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=600&h=400&fit=crop",
+      "tags": [
+        "GCP",
+        "Google Cloud",
+        "BigQuery",
+        "Kubernetes",
+        "Cloud Functions"
+      ],
+      "createdAt": "2026-03-12T14:00:00Z"
+    },
+    {
+      "id": "c25",
+      "title": "React Native - Cross-Platform Mobile Development",
+      "description": "Build production-ready mobile apps for iOS and Android with React Native. Learn navigation, state management with Redux, native modules, animations with Reanimated, push notifications, and app store deployment.",
+      "instructor": "Dr. Priya Sharma",
+      "category": "Mobile Development",
+      "level": "Intermediate",
+      "duration": "36 hours",
+      "lessons": 128,
+      "rating": 4.7,
+      "students": 8100,
+      "price": 2999,
+      "image": "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=600&h=400&fit=crop",
+      "tags": [
+        "React Native",
+        "JavaScript",
+        "iOS",
+        "Android",
+        "Redux",
+        "Expo"
+      ],
+      "createdAt": "2026-03-15T10:00:00Z"
+    },
+    {
+      "id": "c26",
+      "title": "Photography Masterclass - DSLR to Professional",
+      "description": "Learn photography from basics to professional level. Master camera settings, composition, lighting, portrait, landscape, street, and product photography. Post-processing with Lightroom and Photoshop included.",
+      "instructor": "Natasha Roy",
+      "category": "Photography",
+      "level": "Beginner",
+      "duration": "28 hours",
+      "lessons": 96,
+      "rating": 4.5,
+      "students": 7300,
+      "price": 1999,
+      "image": "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=600&h=400&fit=crop",
+      "tags": [
+        "Photography",
+        "DSLR",
+        "Lightroom",
+        "Composition",
+        "Lighting"
+      ],
+      "createdAt": "2026-03-18T08:00:00Z"
+    },
+    {
+      "id": "c27",
+      "title": "Unreal Engine 5 - AAA Game Development",
+      "description": "Create stunning games with Unreal Engine 5. Master Blueprints, C++, Nanite, Lumen, MetaHumans, Niagara particles, landscape, animation, and multiplayer. Build AAA-quality games with photorealistic graphics.",
+      "instructor": "Chris Martinez",
+      "category": "Game Development",
+      "level": "Advanced",
+      "duration": "55 hours",
+      "lessons": 195,
+      "rating": 4.8,
+      "students": 6800,
+      "price": 4299,
+      "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=600&h=400&fit=crop",
+      "tags": [
+        "Unreal Engine",
+        "C++",
+        "Blueprints",
+        "Nanite",
+        "Game Dev"
+      ],
+      "createdAt": "2026-03-20T11:00:00Z"
+    },
+    {
+      "id": "c28",
+      "title": "Excel & VBA - Complete Business Automation",
+      "description": "Master Microsoft Excel from basics to expert level. Learn advanced formulas, pivot tables, Power Query, Power Pivot, VBA macros, dashboard creation, data analysis, and business automation techniques.",
+      "instructor": "Lisa Johnson",
+      "category": "Business",
+      "level": "Beginner",
+      "duration": "32 hours",
+      "lessons": 114,
+      "rating": 4.5,
+      "students": 13500,
+      "price": 1499,
+      "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&h=400&fit=crop",
+      "tags": [
+        "Excel",
+        "VBA",
+        "Pivot Tables",
+        "Power Query",
+        "Automation"
+      ],
+      "createdAt": "2026-03-22T09:00:00Z"
+    },
+    {
+      "id": "c29",
+      "title": "Spring Boot & Microservices Architecture",
+      "description": "Build enterprise-grade microservices with Spring Boot, Spring Cloud, Spring Security. Master API Gateway, Service Discovery, Circuit Breaker, Event-Driven architecture with Kafka, Docker containerization, and Kubernetes deployment.",
+      "instructor": "Prof. Rajesh Kumar",
+      "category": "Web Development",
+      "level": "Advanced",
+      "duration": "46 hours",
+      "lessons": 165,
+      "rating": 4.8,
+      "students": 7400,
+      "price": 3999,
+      "image": "https://images.unsplash.com/photo-1605379399642-870262d3d051?w=600&h=400&fit=crop",
+      "tags": [
+        "Spring Boot",
+        "Microservices",
+        "Java",
+        "Kafka",
+        "Docker",
+        "Kubernetes"
+      ],
+      "createdAt": "2026-03-24T14:30:00Z"
+    },
+    {
+      "id": "c30",
+      "title": "Generative AI & Prompt Engineering Bootcamp",
+      "description": "Master Generative AI tools and techniques. Learn prompt engineering for ChatGPT, Midjourney, DALL-E, Stable Diffusion. Build AI-powered applications with OpenAI API, LangChain, vector databases, and RAG architecture.",
+      "instructor": "Prof. James Anderson",
+      "category": "Artificial Intelligence",
+      "level": "Beginner",
+      "duration": "30 hours",
+      "lessons": 105,
+      "rating": 4.9,
+      "students": 19500,
+      "price": 2999,
+      "image": "https://images.unsplash.com/photo-1684369175833-4b445ad6bfb5?w=600&h=400&fit=crop",
+      "tags": [
+        "ChatGPT",
+        "Generative AI",
+        "Prompt Engineering",
+        "LangChain",
+        "OpenAI API"
+      ],
+      "createdAt": "2026-03-26T08:00:00Z"
+    },
+    {
+      "id": "c31",
+      "title": "Kotlin for Android Development - Jetpack Compose",
+      "description": "Build modern Android apps with Kotlin and Jetpack Compose. Master MVVM architecture, Room database, Retrofit, Hilt dependency injection, Navigation, Material Design 3. Publish production apps to Google Play Store.",
+      "instructor": "Dr. Priya Sharma",
+      "category": "Mobile Development",
+      "level": "Intermediate",
+      "duration": "40 hours",
+      "lessons": 144,
+      "rating": 4.7,
+      "students": 7600,
+      "price": 2999,
+      "image": "https://images.unsplash.com/photo-1607252650355-f7fd0460ccdb?w=600&h=400&fit=crop",
+      "tags": [
+        "Kotlin",
+        "Android",
+        "Jetpack Compose",
+        "MVVM",
+        "Room",
+        "Hilt"
+      ],
+      "createdAt": "2026-03-28T10:00:00Z"
+    },
+    {
+      "id": "c32",
+      "title": "WordPress Development - Themes & Plugins from Scratch",
+      "description": "Learn WordPress development from beginner to professional. Build custom themes with PHP, create plugins, WooCommerce integration, REST API, Gutenberg blocks, SEO optimization, and deployment. Start a freelancing career.",
+      "instructor": "Alex Turner",
+      "category": "Web Development",
+      "level": "Beginner",
+      "duration": "34 hours",
+      "lessons": 118,
+      "rating": 4.5,
+      "students": 9200,
+      "price": 1999,
+      "image": "https://images.unsplash.com/photo-1559028012-481c04fa702d?w=600&h=400&fit=crop",
+      "tags": [
+        "WordPress",
+        "PHP",
+        "WooCommerce",
+        "Themes",
+        "Plugins"
+      ],
+      "createdAt": "2026-03-30T12:00:00Z"
+    },
+    {
+      "id": "c33",
+      "title": "Video Editing Masterclass - Premiere Pro & After Effects",
+      "description": "Professional video editing with Adobe Premiere Pro and After Effects. Learn color grading, motion graphics, visual effects, sound design, green screen, transitions, and YouTube video production workflow.",
+      "instructor": "Natasha Roy",
+      "category": "Design",
+      "level": "Beginner",
+      "duration": "36 hours",
+      "lessons": 130,
+      "rating": 4.6,
+      "students": 8800,
+      "price": 2499,
+      "image": "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=600&h=400&fit=crop",
+      "tags": [
+        "Premiere Pro",
+        "After Effects",
+        "Video Editing",
+        "Motion Graphics",
+        "VFX"
+      ],
+      "createdAt": "2026-03-31T14:00:00Z"
+    },
+    {
+      "id": "c34",
+      "title": "Linux Administration & Shell Scripting",
+      "description": "Master Linux system administration from scratch. Learn file systems, user management, networking, package management, systemd, bash scripting, cron jobs, security hardening. Prepare for LPIC and RHCSA certifications.",
+      "instructor": "Alex Turner",
+      "category": "DevOps",
+      "level": "Intermediate",
+      "duration": "32 hours",
+      "lessons": 112,
+      "rating": 4.6,
+      "students": 6300,
+      "price": 2499,
+      "image": "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=600&h=400&fit=crop",
+      "tags": [
+        "Linux",
+        "Bash",
+        "Shell Scripting",
+        "System Admin",
+        "RHCSA"
+      ],
+      "createdAt": "2026-04-01T09:00:00Z"
+    },
+    {
+      "id": "c35",
+      "title": "Go (Golang) - Build Scalable Backend Services",
+      "description": "Learn Go programming language and build high-performance backend services. Master goroutines, channels, interfaces, testing, Gin/Echo frameworks, gRPC, Protocol Buffers, and microservices with Go.",
+      "instructor": "Prof. Amit Verma",
+      "category": "Programming",
+      "level": "Intermediate",
+      "duration": "34 hours",
+      "lessons": 120,
+      "rating": 4.7,
+      "students": 5100,
+      "price": 3299,
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&h=400&fit=crop",
+      "tags": [
+        "Go",
+        "Golang",
+        "gRPC",
+        "Concurrency",
+        "Microservices"
+      ],
+      "createdAt": "2026-04-02T11:00:00Z"
+    }
+  ],
+  "enrollments": [
+    {
+      "id": "e1",
+      "userId": "u1",
+      "courseId": "c1",
+      "progress": 78,
+      "enrolledAt": "2025-09-01T10:00:00Z"
+    },
+    {
+      "id": "e2",
+      "userId": "u1",
+      "courseId": "c3",
+      "progress": 45,
+      "enrolledAt": "2025-10-15T14:00:00Z"
+    },
+    {
+      "id": "e3",
+      "userId": "u1",
+      "courseId": "c30",
+      "progress": 20,
+      "enrolledAt": "2026-03-28T09:00:00Z"
+    },
+    {
+      "id": "e4",
+      "userId": "u2",
+      "courseId": "c2",
+      "progress": 92,
+      "enrolledAt": "2025-09-20T09:00:00Z"
+    },
+    {
+      "id": "e5",
+      "userId": "u2",
+      "courseId": "c12",
+      "progress": 55,
+      "enrolledAt": "2026-01-10T11:00:00Z"
+    },
+    {
+      "id": "e6",
+      "userId": "u3",
+      "courseId": "c1",
+      "progress": 35,
+      "enrolledAt": "2025-10-01T11:00:00Z"
+    },
+    {
+      "id": "e7",
+      "userId": "u3",
+      "courseId": "c5",
+      "progress": 60,
+      "enrolledAt": "2025-11-05T16:00:00Z"
+    },
+    {
+      "id": "e8",
+      "userId": "u3",
+      "courseId": "c19",
+      "progress": 15,
+      "enrolledAt": "2026-03-01T08:00:00Z"
+    },
+    {
+      "id": "e9",
+      "userId": "u4",
+      "courseId": "c9",
+      "progress": 100,
+      "enrolledAt": "2025-12-01T10:00:00Z"
+    },
+    {
+      "id": "e10",
+      "userId": "u4",
+      "courseId": "c23",
+      "progress": 70,
+      "enrolledAt": "2026-03-15T14:00:00Z"
+    },
+    {
+      "id": "e11",
+      "userId": "u5",
+      "courseId": "c10",
+      "progress": 88,
+      "enrolledAt": "2025-10-20T08:30:00Z"
+    },
+    {
+      "id": "e12",
+      "userId": "u5",
+      "courseId": "c29",
+      "progress": 40,
+      "enrolledAt": "2026-03-26T09:00:00Z"
+    },
+    {
+      "id": "e13",
+      "userId": "u6",
+      "courseId": "c3",
+      "progress": 100,
+      "enrolledAt": "2025-11-01T13:00:00Z"
+    },
+    {
+      "id": "e14",
+      "userId": "u6",
+      "courseId": "c17",
+      "progress": 75,
+      "enrolledAt": "2026-02-10T10:00:00Z"
+    },
+    {
+      "id": "e15",
+      "userId": "u6",
+      "courseId": "c22",
+      "progress": 30,
+      "enrolledAt": "2026-03-20T15:00:00Z"
+    },
+    {
+      "id": "e16",
+      "userId": "u7",
+      "courseId": "c6",
+      "progress": 65,
+      "enrolledAt": "2025-11-15T09:00:00Z"
+    },
+    {
+      "id": "e17",
+      "userId": "u7",
+      "courseId": "c34",
+      "progress": 25,
+      "enrolledAt": "2026-04-01T11:00:00Z"
+    },
+    {
+      "id": "e18",
+      "userId": "u8",
+      "courseId": "c7",
+      "progress": 100,
+      "enrolledAt": "2025-11-20T16:00:00Z"
+    },
+    {
+      "id": "e19",
+      "userId": "u8",
+      "courseId": "c28",
+      "progress": 50,
+      "enrolledAt": "2026-03-25T08:00:00Z"
+    },
+    {
+      "id": "e20",
+      "userId": "u9",
+      "courseId": "c4",
+      "progress": 72,
+      "enrolledAt": "2025-12-05T10:00:00Z"
+    },
+    {
+      "id": "e21",
+      "userId": "u9",
+      "courseId": "c11",
+      "progress": 45,
+      "enrolledAt": "2026-02-20T14:00:00Z"
+    },
+    {
+      "id": "e22",
+      "userId": "u10",
+      "courseId": "c2",
+      "progress": 58,
+      "enrolledAt": "2025-12-15T11:00:00Z"
+    },
+    {
+      "id": "e23",
+      "userId": "u10",
+      "courseId": "c20",
+      "progress": 90,
+      "enrolledAt": "2026-03-01T09:00:00Z"
+    },
+    {
+      "id": "e24",
+      "userId": "u11",
+      "courseId": "c13",
+      "progress": 100,
+      "enrolledAt": "2026-01-05T08:00:00Z"
+    },
+    {
+      "id": "e25",
+      "userId": "u11",
+      "courseId": "c35",
+      "progress": 18,
+      "enrolledAt": "2026-04-02T13:00:00Z"
+    },
+    {
+      "id": "e26",
+      "userId": "u12",
+      "courseId": "c30",
+      "progress": 82,
+      "enrolledAt": "2026-03-28T10:00:00Z"
+    },
+    {
+      "id": "e27",
+      "userId": "u12",
+      "courseId": "c7",
+      "progress": 100,
+      "enrolledAt": "2025-12-20T15:00:00Z"
+    },
+    {
+      "id": "e28",
+      "userId": "u13",
+      "courseId": "c1",
+      "progress": 100,
+      "enrolledAt": "2026-01-10T09:00:00Z"
+    },
+    {
+      "id": "e29",
+      "userId": "u13",
+      "courseId": "c14",
+      "progress": 35,
+      "enrolledAt": "2026-03-10T11:00:00Z"
+    },
+    {
+      "id": "e30",
+      "userId": "u14",
+      "courseId": "c5",
+      "progress": 48,
+      "enrolledAt": "2026-01-15T14:00:00Z"
+    },
+    {
+      "id": "e31",
+      "userId": "u14",
+      "courseId": "c25",
+      "progress": 22,
+      "enrolledAt": "2026-03-18T08:00:00Z"
+    },
+    {
+      "id": "e32",
+      "userId": "u15",
+      "courseId": "c8",
+      "progress": 55,
+      "enrolledAt": "2026-01-20T10:00:00Z"
+    },
+    {
+      "id": "e33",
+      "userId": "u15",
+      "courseId": "c21",
+      "progress": 30,
+      "enrolledAt": "2026-03-05T12:00:00Z"
+    },
+    {
+      "id": "e34",
+      "userId": "u16",
+      "courseId": "c9",
+      "progress": 68,
+      "enrolledAt": "2026-01-25T09:00:00Z"
+    },
+    {
+      "id": "e35",
+      "userId": "u16",
+      "courseId": "c32",
+      "progress": 40,
+      "enrolledAt": "2026-04-01T14:00:00Z"
+    },
+    {
+      "id": "e36",
+      "userId": "u17",
+      "courseId": "c19",
+      "progress": 85,
+      "enrolledAt": "2026-02-01T11:00:00Z"
+    },
+    {
+      "id": "e37",
+      "userId": "u17",
+      "courseId": "c27",
+      "progress": 33,
+      "enrolledAt": "2026-03-22T09:00:00Z"
+    },
+    {
+      "id": "e38",
+      "userId": "u18",
+      "courseId": "c15",
+      "progress": 100,
+      "enrolledAt": "2026-02-05T08:00:00Z"
+    },
+    {
+      "id": "e39",
+      "userId": "u18",
+      "courseId": "c10",
+      "progress": 42,
+      "enrolledAt": "2026-03-15T10:00:00Z"
+    },
+    {
+      "id": "e40",
+      "userId": "u19",
+      "courseId": "c12",
+      "progress": 62,
+      "enrolledAt": "2026-02-10T14:00:00Z"
+    },
+    {
+      "id": "e41",
+      "userId": "u19",
+      "courseId": "c30",
+      "progress": 50,
+      "enrolledAt": "2026-03-30T08:00:00Z"
+    },
+    {
+      "id": "e42",
+      "userId": "u20",
+      "courseId": "c16",
+      "progress": 38,
+      "enrolledAt": "2026-02-18T11:00:00Z"
+    },
+    {
+      "id": "e43",
+      "userId": "u20",
+      "courseId": "c26",
+      "progress": 75,
+      "enrolledAt": "2026-03-20T09:00:00Z"
+    },
+    {
+      "id": "e44",
+      "userId": "u21",
+      "courseId": "c4",
+      "progress": 28,
+      "enrolledAt": "2026-02-25T10:00:00Z"
+    },
+    {
+      "id": "e45",
+      "userId": "u21",
+      "courseId": "c24",
+      "progress": 15,
+      "enrolledAt": "2026-03-28T13:00:00Z"
+    },
+    {
+      "id": "e46",
+      "userId": "u22",
+      "courseId": "c33",
+      "progress": 55,
+      "enrolledAt": "2026-03-05T08:00:00Z"
+    },
+    {
+      "id": "e47",
+      "userId": "u22",
+      "courseId": "c17",
+      "progress": 88,
+      "enrolledAt": "2026-02-15T15:00:00Z"
+    },
+    {
+      "id": "e48",
+      "userId": "u23",
+      "courseId": "c31",
+      "progress": 42,
+      "enrolledAt": "2026-03-10T09:00:00Z"
+    },
+    {
+      "id": "e49",
+      "userId": "u23",
+      "courseId": "c6",
+      "progress": 100,
+      "enrolledAt": "2025-12-10T11:00:00Z"
+    },
+    {
+      "id": "e50",
+      "userId": "u24",
+      "courseId": "c18",
+      "progress": 70,
+      "enrolledAt": "2026-03-18T10:00:00Z"
+    },
+    {
+      "id": "e51",
+      "userId": "u24",
+      "courseId": "c2",
+      "progress": 32,
+      "enrolledAt": "2026-03-25T14:00:00Z"
+    },
+    {
+      "id": "e52",
+      "userId": "u25",
+      "courseId": "c1",
+      "progress": 20,
+      "enrolledAt": "2026-03-28T08:00:00Z"
+    },
+    {
+      "id": "e53",
+      "userId": "u25",
+      "courseId": "c30",
+      "progress": 10,
+      "enrolledAt": "2026-04-01T09:00:00Z"
+    },
+    {
+      "id": "e54",
+      "userId": "u1",
+      "courseId": "c9",
+      "progress": 55,
+      "enrolledAt": "2026-01-15T08:00:00Z"
+    },
+    {
+      "id": "e55",
+      "userId": "u2",
+      "courseId": "c30",
+      "progress": 40,
+      "enrolledAt": "2026-03-30T10:00:00Z"
+    },
+    {
+      "id": "e56",
+      "userId": "u4",
+      "courseId": "c19",
+      "progress": 28,
+      "enrolledAt": "2026-03-01T11:00:00Z"
+    },
+    {
+      "id": "e57",
+      "userId": "u5",
+      "courseId": "c15",
+      "progress": 65,
+      "enrolledAt": "2026-02-10T09:00:00Z"
+    },
+    {
+      "id": "e58",
+      "userId": "u7",
+      "courseId": "c11",
+      "progress": 52,
+      "enrolledAt": "2026-01-20T14:00:00Z"
+    },
+    {
+      "id": "e59",
+      "userId": "u9",
+      "courseId": "c24",
+      "progress": 38,
+      "enrolledAt": "2026-03-15T08:00:00Z"
+    },
+    {
+      "id": "e60",
+      "userId": "u10",
+      "courseId": "c12",
+      "progress": 22,
+      "enrolledAt": "2026-03-20T11:00:00Z"
+    },
+    {
+      "id": "ead441875",
+      "userId": "u3",
+      "courseId": "c2",
+      "progress": 0,
+      "enrolledAt": "2026-04-06T17:11:08.343Z"
+    }
+  ],
+  "instructors": [
+    {
+      "name": "Prathamesh Giri",
+      "image": "https://prathameshgiri.in/assets/hero.img.jpeg",
+      "bio": "Full-Stack Developer, UI/UX Designer & Educator. Expert in modern web technologies and building scalable applications.",
+      "expertise": [
+        "Web Development",
+        "React",
+        "Node.js",
+        "UI/UX Design"
+      ],
+      "courses": 5,
+      "students": 12500,
+      "rating": 5.0
+    },
+    {
+      "name": "Dr. Sarah Mitchell",
+      "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200&h=200&fit=crop&crop=face",
+      "bio": "Full-Stack Developer & Educator with 12+ years in web technologies. Former Senior Engineer at Google. PhD in Computer Science from MIT.",
+      "expertise": [
+        "React",
+        "Node.js",
+        "JavaScript",
+        "TypeScript",
+        "MongoDB"
+      ],
+      "courses": 3,
+      "students": 43450,
+      "rating": 4.9
+    },
+    {
+      "name": "Prof. James Anderson",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&crop=face",
+      "bio": "Data Scientist & AI Researcher with 15+ years of experience. Former Lead Data Scientist at Amazon. Published 50+ research papers in ML & AI.",
+      "expertise": [
+        "Python",
+        "TensorFlow",
+        "PyTorch",
+        "NLP",
+        "Deep Learning"
+      ],
+      "courses": 3,
+      "students": 45700,
+      "rating": 4.9
+    },
+    {
+      "name": "Emily Chen",
+      "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&h=200&fit=crop&crop=face",
+      "bio": "Award-winning UI/UX Designer with 10+ years in digital product design. Former Design Lead at Airbnb. Specializes in design systems & user research.",
+      "expertise": [
+        "Figma",
+        "Adobe XD",
+        "Photoshop",
+        "Illustrator",
+        "Design Systems"
+      ],
+      "courses": 3,
+      "students": 25750,
+      "rating": 4.7
+    },
+    {
+      "name": "Michael Roberts",
+      "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&fit=crop&crop=face",
+      "bio": "Cloud Architect & DevOps Engineer with 14+ years. AWS & GCP certified professional. Former Infrastructure Lead at Netflix.",
+      "expertise": [
+        "AWS",
+        "GCP",
+        "Docker",
+        "Kubernetes",
+        "Terraform"
+      ],
+      "courses": 3,
+      "students": 21730,
+      "rating": 4.7
+    },
+    {
+      "name": "Dr. Priya Sharma",
+      "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&h=200&fit=crop&crop=face",
+      "bio": "Mobile Development Expert with 11+ years. Built 40+ published apps. Former Senior Mobile Developer at Microsoft India.",
+      "expertise": [
+        "Flutter",
+        "React Native",
+        "Kotlin",
+        "Angular",
+        "Dart"
+      ],
+      "courses": 4,
+      "students": 32720,
+      "rating": 4.7
+    },
+    {
+      "name": "Alex Turner",
+      "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&h=200&fit=crop&crop=face",
+      "bio": "Cybersecurity Expert & Ethical Hacker with CEH, OSCP certifications. 13+ years in security research. Former Security Consultant at Deloitte.",
+      "expertise": [
+        "Kali Linux",
+        "Network Security",
+        "WordPress",
+        "Linux",
+        "Penetration Testing"
+      ],
+      "courses": 3,
+      "students": 25700,
+      "rating": 4.6
+    },
+    {
+      "name": "Lisa Johnson",
+      "image": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=200&h=200&fit=crop&crop=face",
+      "bio": "Digital Marketing Strategist with 10+ years. Managed ₹50Cr+ in ad campaigns. Former Marketing Director at HubSpot India.",
+      "expertise": [
+        "SEO",
+        "Google Ads",
+        "Social Media",
+        "Excel",
+        "Content Marketing"
+      ],
+      "courses": 2,
+      "students": 28700,
+      "rating": 4.6
+    },
+    {
+      "name": "David Kim",
+      "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=200&h=200&fit=crop&crop=face",
+      "bio": "Blockchain Developer & Web3 Pioneer with 8+ years. Built DeFi protocols with $100M+ TVL. CTO of a Web3 startup.",
+      "expertise": [
+        "Solidity",
+        "Ethereum",
+        "Web3.js",
+        "Hardhat",
+        "DeFi"
+      ],
+      "courses": 1,
+      "students": 6150,
+      "rating": 4.6
+    },
+    {
+      "name": "Prof. Rajesh Kumar",
+      "image": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=200&h=200&fit=crop&crop=face",
+      "bio": "Software Architect with 18+ years in enterprise Java. Professor at IIT Bombay. Author of 3 bestselling programming books.",
+      "expertise": [
+        "Java",
+        "Spring Boot",
+        "SQL",
+        "Microservices",
+        "Database Design"
+      ],
+      "courses": 3,
+      "students": 29400,
+      "rating": 4.7
+    },
+    {
+      "name": "Prof. Amit Verma",
+      "image": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=200&h=200&fit=crop&crop=face",
+      "bio": "Systems Programming Expert with 16+ years. Competitive programming judge. Professor at IIIT Hyderabad.",
+      "expertise": [
+        "C++",
+        "Rust",
+        "Go",
+        "Data Structures",
+        "Algorithms"
+      ],
+      "courses": 3,
+      "students": 26700,
+      "rating": 4.7
+    },
+    {
+      "name": "Dr. Meena Iyer",
+      "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&h=200&fit=crop&crop=face",
+      "bio": "Statistician & Data Analyst with 12+ years. PhD in Applied Statistics. Former Analytics Lead at Flipkart.",
+      "expertise": [
+        "R Programming",
+        "Power BI",
+        "Tableau",
+        "Statistics",
+        "Data Visualization"
+      ],
+      "courses": 2,
+      "students": 13800,
+      "rating": 4.6
+    },
+    {
+      "name": "Chris Martinez",
+      "image": "https://images.unsplash.com/photo-1513956589380-bad6acb9b9d4?w=200&h=200&fit=crop&crop=face",
+      "bio": "Game Developer with 12+ years. Shipped 15+ titles on Steam & consoles. Former Senior Developer at Ubisoft.",
+      "expertise": [
+        "Unity",
+        "Unreal Engine",
+        "C#",
+        "C++",
+        "Game Design"
+      ],
+      "courses": 2,
+      "students": 17300,
+      "rating": 4.8
+    },
+    {
+      "name": "Emma Wilson",
+      "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&h=200&fit=crop&crop=face",
+      "bio": "iOS Developer with 9+ years. Published 25+ apps on App Store with 5M+ downloads. Former Apple WWDC Scholar.",
+      "expertise": [
+        "Swift",
+        "SwiftUI",
+        "iOS",
+        "Xcode",
+        "Core Data"
+      ],
+      "courses": 1,
+      "students": 6400,
+      "rating": 4.7
+    },
+    {
+      "name": "Natasha Roy",
+      "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop&crop=face",
+      "bio": "Professional Photographer & Video Editor with 11+ years. Work featured in National Geographic & Vogue India.",
+      "expertise": [
+        "Photography",
+        "Premiere Pro",
+        "After Effects",
+        "Lightroom",
+        "Videography"
+      ],
+      "courses": 2,
+      "students": 16100,
+      "rating": 4.6
+    }
+  ],
+  "reviews": [
+    {
+      "id": "r1",
+      "userId": "u1",
+      "courseId": "c1",
+      "rating": 5,
+      "comment": "Best web development course I've ever taken! Dr. Sarah explains everything so clearly. The projects are amazing and I built my portfolio from scratch.",
+      "createdAt": "2025-11-15T10:00:00Z"
+    },
+    {
+      "id": "r2",
+      "userId": "u4",
+      "courseId": "c1",
+      "rating": 5,
+      "comment": "Complete bootcamp that covers everything. I went from zero to building full-stack apps. Highly recommended for beginners!",
+      "createdAt": "2026-01-20T14:30:00Z"
+    },
+    {
+      "id": "r3",
+      "userId": "u13",
+      "courseId": "c1",
+      "rating": 4,
+      "comment": "Great course with solid projects. Some sections could use more depth but overall excellent for getting started in web dev.",
+      "createdAt": "2026-03-05T09:00:00Z"
+    },
+    {
+      "id": "r4",
+      "userId": "u2",
+      "courseId": "c2",
+      "rating": 5,
+      "comment": "Incredible course! Prof. Anderson's teaching style makes complex ML concepts easy to understand. The hands-on projects are very practical.",
+      "createdAt": "2025-12-10T11:00:00Z"
+    },
+    {
+      "id": "r5",
+      "userId": "u10",
+      "courseId": "c2",
+      "rating": 5,
+      "comment": "This course changed my career. I transitioned from a basic Python developer to a Data Scientist. Worth every rupee!",
+      "createdAt": "2026-02-15T16:00:00Z"
+    },
+    {
+      "id": "r6",
+      "userId": "u6",
+      "courseId": "c3",
+      "rating": 5,
+      "comment": "Emily is an amazing instructor! I learned Figma from scratch and now I'm doing freelance design work. The portfolio section is gold.",
+      "createdAt": "2026-01-08T09:30:00Z"
+    },
+    {
+      "id": "r7",
+      "userId": "u22",
+      "courseId": "c3",
+      "rating": 4,
+      "comment": "Very thorough design course. The UI principles taught here apply to all design tools, not just Figma. Loved the real-world projects.",
+      "createdAt": "2026-03-18T12:00:00Z"
+    },
+    {
+      "id": "r8",
+      "userId": "u9",
+      "courseId": "c4",
+      "rating": 5,
+      "comment": "Passed my AWS Solutions Architect exam on the first try after this course! Michael's cloud explanations are crystal clear.",
+      "createdAt": "2026-02-28T10:00:00Z"
+    },
+    {
+      "id": "r9",
+      "userId": "u3",
+      "courseId": "c5",
+      "rating": 5,
+      "comment": "Built my first Flutter app and published it on Play Store! Dr. Priya's teaching is excellent. The Firebase integration section was very helpful.",
+      "createdAt": "2026-01-05T15:00:00Z"
+    },
+    {
+      "id": "r10",
+      "userId": "u7",
+      "courseId": "c6",
+      "rating": 4,
+      "comment": "Solid cybersecurity course. The hands-on labs with Kali Linux were amazing. Alex really knows his stuff in ethical hacking.",
+      "createdAt": "2026-01-20T11:00:00Z"
+    },
+    {
+      "id": "r11",
+      "userId": "u23",
+      "courseId": "c6",
+      "rating": 5,
+      "comment": "Best ethical hacking course available online. The penetration testing labs are incredibly practical. Got my CEH cert thanks to this!",
+      "createdAt": "2026-03-01T08:00:00Z"
+    },
+    {
+      "id": "r12",
+      "userId": "u8",
+      "courseId": "c7",
+      "rating": 4,
+      "comment": "Very comprehensive digital marketing course. Lisa covers everything from SEO to paid ads. The campaign management exercises are great.",
+      "createdAt": "2026-02-10T09:00:00Z"
+    },
+    {
+      "id": "r13",
+      "userId": "u5",
+      "courseId": "c10",
+      "rating": 5,
+      "comment": "Prof. Rajesh Kumar is an exceptional Java teacher. This course took me from basics to building microservices. The Spring Boot section is excellent.",
+      "createdAt": "2026-01-15T13:00:00Z"
+    },
+    {
+      "id": "r14",
+      "userId": "u4",
+      "courseId": "c9",
+      "rating": 5,
+      "comment": "The best React & Next.js course I've found. Server Components, App Router - everything is covered with real production patterns.",
+      "createdAt": "2026-02-20T10:00:00Z"
+    },
+    {
+      "id": "r15",
+      "userId": "u16",
+      "courseId": "c9",
+      "rating": 5,
+      "comment": "Absolutely loved this course! Went from basic React knowledge to building full Next.js production apps. Dr. Sarah is the best!",
+      "createdAt": "2026-03-15T14:00:00Z"
+    },
+    {
+      "id": "r16",
+      "userId": "u11",
+      "courseId": "c13",
+      "rating": 5,
+      "comment": "500+ problems with solutions! This course is a must for anyone preparing for competitive programming or coding interviews.",
+      "createdAt": "2026-03-10T09:00:00Z"
+    },
+    {
+      "id": "r17",
+      "userId": "u17",
+      "courseId": "c19",
+      "rating": 5,
+      "comment": "Building games with Unity is so much fun! Chris makes even complex topics like physics and AI seem simple. Built 6 games so far!",
+      "createdAt": "2026-03-20T11:00:00Z"
+    },
+    {
+      "id": "r18",
+      "userId": "u12",
+      "courseId": "c30",
+      "rating": 5,
+      "comment": "GenAI and prompt engineering is the future, and this course covers it all. Built an AI chatbot using LangChain in the final project!",
+      "createdAt": "2026-04-01T10:00:00Z"
+    },
+    {
+      "id": "r19",
+      "userId": "u18",
+      "courseId": "c15",
+      "rating": 4,
+      "comment": "Great database course covering both SQL and NoSQL. The real-world project designs are very helpful for understanding normalization.",
+      "createdAt": "2026-03-25T12:00:00Z"
+    },
+    {
+      "id": "r20",
+      "userId": "u15",
+      "courseId": "c8",
+      "rating": 4,
+      "comment": "Blockchain development is complex but David breaks it down well. Building my own NFT marketplace was the highlight!",
+      "createdAt": "2026-03-15T09:00:00Z"
+    },
+    {
+      "id": "ra90bfc4b",
+      "userId": "u3",
+      "courseId": "c30",
+      "rating": 5,
+      "comment": "GenAI and prompt engineering is the future, and this course covers it all. Built an AI chatbot using LangChain in the final project!",
+      "createdAt": "2026-04-06T17:15:55.297Z"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "msg_757d11a2",
+      "name": "Prathamesh Giri",
+      "email": "contact@prathameshgiri.in",
+      "subject": "Partnership",
+      "message": "test",
+      "status": "unread",
+      "createdAt": "2026-04-06T17:31:42.462Z"
+    }
+  ],
+  "activities": [
+    {
+      "id": "a1a099ba5",
+      "type": "contact_received",
+      "description": "New contact message from Prathamesh Giri regarding \"Partnership\"",
+      "timestamp": "2026-04-06T17:31:42.462Z"
+    }
+  ]
+}

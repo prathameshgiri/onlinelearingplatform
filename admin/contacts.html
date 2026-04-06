@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Messages - LearnHub Admin</title>
+  <link rel="stylesheet" href="css/admin.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>ðŸ›¡ï¸</text></svg>">
+</head>
+<body>
+  <div class="toast-container" id="toastContainer"></div>
+  <div class="admin-layout">
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-header">
+        <div class="sidebar-logo"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--primary);"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg><span>LearnHub</span></div>
+      </div>
+      <div class="sidebar-label">Main Menu</div>
+      <nav class="sidebar-nav">
+        <a href="dashboard.html" class="sidebar-link"><span class="sidebar-link-icon">📊</span><span>Dashboard</span></a>
+        <a href="users.html" class="sidebar-link"><span class="sidebar-link-icon">👥</span><span>Users</span></a>
+        <a href="courses.html" class="sidebar-link"><span class="sidebar-link-icon">📚</span><span>Courses</span></a>
+        <a href="enrollments.html" class="sidebar-link"><span class="sidebar-link-icon">🎓</span><span>Enrollments</span></a>
+        <a href="contacts.html" class="sidebar-link active"><span class="sidebar-link-icon">📬</span><span>Contacts</span></a>
+        <a href="activity.html" class="sidebar-link"><span class="sidebar-link-icon"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></span><span>Activity Log</span></a>
+      </nav>
+      <div class="sidebar-footer">
+        <div class="sidebar-admin-info">
+          <div class="sidebar-admin-avatar" id="adminAvatar">A</div>
+          <div><div class="sidebar-admin-name" id="adminName">Admin</div><div class="sidebar-admin-role">Administrator</div></div>
+        </div>
+        <button class="sidebar-logout-btn" onclick="adminLogout()">🚪 Sign Out</button>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <div class="topbar">
+        <div class="topbar-left"><h1>Contact Messages</h1><p>View forms submitted by users and visitors</p></div>
+        <div class="topbar-right">
+          <button class="dark-mode-btn" id="darkModeBtn" onclick="toggleDarkMode()">🌙</button>
+        </div>
+      </div>
+
+      <div class="page-content">
+        <div class="data-card">
+          <div class="data-card-header">
+            <h3 class="data-card-title">All Messages (<span id="contactCount">0</span>)</h3>
+          </div>
+          <div class="data-table-wrapper">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>Sender Info</th>
+                  <th>Subject</th>
+                  <th>Message Preview</th>
+                  <th>Date</th>
+                  <th>Actions</th>
+                </tr>
+              </thead>
+              <tbody id="contactsTableBody">
+                <tr><td colspan="5" style="text-align: center; padding: 40px;">Loading contacts...</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Message Detail Modal -->
+  <div class="modal-overlay" id="messageModal">
+    <div class="modal">
+      <div class="modal-header">
+        <h3 class="modal-title">Message Details</h3>
+        <button class="modal-close" onclick="closeModal('messageModal')">Ã—</button>
+      </div>
+      <div class="modal-body">
+        <div style="margin-bottom: 20px;">
+          <h4 style="font-size: 0.9rem; color: var(--text-light); margin-bottom: 4px;">From:</h4>
+          <div style="font-weight: 600;" id="msgName"></div>
+          <div style="font-size: 0.9rem;">
+            <a href="#" id="msgEmail" style="color: var(--primary);"></a>
+          </div>
+        </div>
+        <div style="margin-bottom: 20px;">
+          <h4 style="font-size: 0.9rem; color: var(--text-light); margin-bottom: 4px;">Subject:</h4>
+          <div style="font-weight: 600;" id="msgSubject"></div>
+        </div>
+        <div style="margin-bottom: 20px;">
+          <h4 style="font-size: 0.9rem; color: var(--text-light); margin-bottom: 4px;">Message:</h4>
+          <div style="background: var(--bg); padding: 16px; border-radius: 8px; font-size: 0.95rem; line-height: 1.6; white-space: pre-wrap;" id="msgContent"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/admin-utils.js"></script>
+  <script src="js/admin-contacts.js"></script>
+</body>
+</html>
+

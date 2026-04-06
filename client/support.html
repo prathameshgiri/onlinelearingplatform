@@ -1,0 +1,366 @@
+﻿<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="LearnHub Support - Help Center, Privacy Policy, and Terms of Service">
+  <title>Support - LearnHub</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
+</head>
+<body>
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar scrolled" id="navbar">
+    <div class="nav-content">
+      <a href="index.html" class="nav-logo">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--primary);"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+        <span>LearnHub</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="dark-mode-toggle" id="darkModeToggle" title="Toggle Dark Mode">🌙</button>
+        <div id="authButtons">
+          <a href="login.html" class="nav-auth-btn nav-login-btn">Log In</a>
+          <a href="register.html" class="nav-auth-btn nav-signup-btn">Sign Up</a>
+        </div>
+        <div class="nav-user-menu" id="userMenu" style="display: none;">
+          <div class="nav-user-avatar" id="userAvatar">J</div>
+          <span class="nav-user-name" id="userName">John</span>
+          <button class="nav-auth-btn nav-login-btn" id="logoutBtn" style="font-size: 0.85rem;">Logout</button>
+        </div>
+        <button class="nav-mobile-btn" id="mobileMenuBtn">☰</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Support Hero -->
+  <section style="background: var(--gradient-hero); padding: 140px 0 80px; color: #fff; position: relative; overflow: hidden;">
+    <div style="position: absolute; width: 500px; height: 500px; border-radius: 50%; background: radial-gradient(circle, rgba(0,206,201,0.2) 0%, transparent 70%); bottom: -200px; left: -100px;"></div>
+    <div class="container" style="position: relative; z-index: 2;">
+      <span class="section-badge" style="margin-bottom: 16px;">🛡️ Support</span>
+      <h1 class="page-hero-title" style="font-weight: 800; margin-bottom: 16px;">How can we help?</h1>
+      <p style="font-size: 1.15rem; opacity: 0.7; max-width: 600px;">Search our knowledge base or browse categories below to find the answers you need.</p>
+    </div>
+  </section>
+
+  <!-- Quick Nav -->
+  <section style="padding: 40px 0; background: var(--bg-card); border-bottom: 1px solid var(--border);">
+    <div class="container">
+      <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+        <a href="#help" class="btn btn-secondary btn-sm" style="border-radius: 50px;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: inline-block; vertical-align: middle; margin-right: 8px;"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg> Help Center</a>
+        <a href="#privacy" class="btn btn-secondary btn-sm" style="border-radius: 50px;">🔒 Privacy Policy</a>
+        <a href="#terms" class="btn btn-secondary btn-sm" style="border-radius: 50px;">📜 Terms of Service</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Help Center Section -->
+  <section class="section" id="help">
+    <div class="container">
+      <div class="section-header scroll-reveal">
+        <span class="section-badge">Help Center</span>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="section-subtitle">Quick answers to the most common questions about LearnHub</p>
+      </div>
+      <div style="max-width: 800px; margin: 0 auto;" class="scroll-reveal">
+        <!-- FAQ Items -->
+        <div class="faq-item" onclick="toggleFAQ(this)">
+          <div class="faq-question">
+            <h3>How do I create an account?</h3>
+            <span class="faq-toggle">+</span>
+          </div>
+          <div class="faq-answer">
+            <p>Click the "Sign Up" button in the top right corner. Fill in your name, email, and create a password. You'll be able to start browsing and enrolling in courses immediately after registration.</p>
+          </div>
+        </div>
+
+        <div class="faq-item" onclick="toggleFAQ(this)">
+          <div class="faq-question">
+            <h3>How do I enroll in a course?</h3>
+            <span class="faq-toggle">+</span>
+          </div>
+          <div class="faq-answer">
+            <p>Browse our course catalog, click on a course you're interested in, and click the "Enroll Now" button on the course detail page. Make sure you're logged in to your account first.</p>
+          </div>
+        </div>
+
+        <div class="faq-item" onclick="toggleFAQ(this)">
+          <div class="faq-question">
+            <h3>Can I access courses on mobile devices?</h3>
+            <span class="faq-toggle">+</span>
+          </div>
+          <div class="faq-answer">
+            <p>Yes! LearnHub is fully responsive and works on all devices including smartphones, tablets, and desktops. Learn anywhere, anytime at your convenience.</p>
+          </div>
+        </div>
+
+        <div class="faq-item" onclick="toggleFAQ(this)">
+          <div class="faq-question">
+            <h3>Do I get a certificate after completing a course?</h3>
+            <span class="faq-toggle">+</span>
+          </div>
+          <div class="faq-answer">
+            <p>Yes, upon completing 100% of the course content, you'll receive a digital certificate of completion. You can share this certificate on LinkedIn and other professional platforms.</p>
+          </div>
+        </div>
+
+        <div class="faq-item" onclick="toggleFAQ(this)">
+          <div class="faq-question">
+            <h3>What payment methods do you accept?</h3>
+            <span class="faq-toggle">+</span>
+          </div>
+          <div class="faq-answer">
+            <p>We accept all major credit/debit cards (Visa, Mastercard, Rupay), UPI, Net Banking, and popular wallets like Paytm and PhonePe. EMI options are also available on select courses.</p>
+          </div>
+        </div>
+
+        <div class="faq-item" onclick="toggleFAQ(this)">
+          <div class="faq-question">
+            <h3>Is there a refund policy?</h3>
+            <span class="faq-toggle">+</span>
+          </div>
+          <div class="faq-answer">
+            <p>Yes, we offer a 7-day money-back guarantee on all courses. If you're not satisfied with a course, contact our support team within 7 days of enrollment for a full refund.</p>
+          </div>
+        </div>
+
+        <div class="faq-item" onclick="toggleFAQ(this)">
+          <div class="faq-question">
+            <h3>How do I track my progress?</h3>
+            <span class="faq-toggle">+</span>
+          </div>
+          <div class="faq-answer">
+            <p>Your progress is automatically tracked as you complete lessons. Visit your Dashboard to see progress bars for each enrolled course, average completion percentage, and completed courses.</p>
+          </div>
+        </div>
+
+        <div class="faq-item" onclick="toggleFAQ(this)">
+          <div class="faq-question">
+            <h3>How can I contact support?</h3>
+            <span class="faq-toggle">+</span>
+          </div>
+          <div class="faq-answer">
+            <p>You can reach us at <a href="mailto:support@learnhub.com" style="color: var(--primary);">support@learnhub.com</a> or call +91 98765 43210 (Mon-Fri, 9 AM - 6 PM IST). You can also use the contact form on our <a href="company.html#contact" style="color: var(--primary);">Company page</a>.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Privacy Policy Section -->
+  <section class="section" id="privacy" style="background: var(--bg);">
+    <div class="container">
+      <div class="section-header scroll-reveal">
+        <span class="section-badge">🔒 Privacy Policy</span>
+        <h2 class="section-title">Your Privacy Matters</h2>
+        <p class="section-subtitle">Last updated: April 1, 2026</p>
+      </div>
+      <div style="max-width: 800px; margin: 0 auto; background: var(--bg-card); border-radius: var(--radius-lg); padding: 48px; border: 1px solid var(--border);" class="scroll-reveal policy-content">
+        <h3 style="font-size: 1.2rem; font-weight: 700; margin-bottom: 12px; color: var(--primary);">1. Information We Collect</h3>
+        <p style="color: var(--text-light); line-height: 1.9; margin-bottom: 24px;">We collect information you provide directly, including your name, email address, and course enrollment data. We also automatically collect usage data such as pages visited, time spent on courses, and device information to improve your learning experience.</p>
+
+        <h3 style="font-size: 1.2rem; font-weight: 700; margin-bottom: 12px; color: var(--primary);">2. How We Use Your Information</h3>
+        <p style="color: var(--text-light); line-height: 1.9; margin-bottom: 24px;">Your information is used to provide and personalize our educational services, track your learning progress, send course recommendations, process payments, and communicate important updates. We never sell your personal data to third parties.</p>
+
+        <h3 style="font-size: 1.2rem; font-weight: 700; margin-bottom: 12px; color: var(--primary);">3. Data Security</h3>
+        <p style="color: var(--text-light); line-height: 1.9; margin-bottom: 24px;">We implement industry-standard security measures including encryption (SSL/TLS), secure data storage, access controls, and regular security audits. Your password is encrypted and we never store it in plain text.</p>
+
+        <h3 style="font-size: 1.2rem; font-weight: 700; margin-bottom: 12px; color: var(--primary);">4. Cookies & Tracking</h3>
+        <p style="color: var(--text-light); line-height: 1.9; margin-bottom: 24px;">We use essential cookies for authentication and user preferences (like dark mode). Analytics cookies help us understand how users interact with our platform. You can manage cookie preferences in your browser settings.</p>
+
+        <h3 style="font-size: 1.2rem; font-weight: 700; margin-bottom: 12px; color: var(--primary);">5. Third-Party Services</h3>
+        <p style="color: var(--text-light); line-height: 1.9; margin-bottom: 24px;">We may use third-party services for payment processing, analytics, and email communications. These services have their own privacy policies and we ensure they meet our data protection standards.</p>
+
+        <h3 style="font-size: 1.2rem; font-weight: 700; margin-bottom: 12px; color: var(--primary);">6. Your Rights</h3>
+        <p style="color: var(--text-light); line-height: 1.9; margin-bottom: 24px;">You have the right to access, update, or delete your personal data at any time. You can also opt out of marketing communications. To exercise these rights, contact us at <a href="mailto:privacy@learnhub.com" style="color: var(--primary);">privacy@learnhub.com</a>.</p>
+
+        <h3 style="font-size: 1.2rem; font-weight: 700; margin-bottom: 12px; color: var(--primary);">7. Data Retention</h3>
+        <p style="color: var(--text-light); line-height: 1.9; margin-bottom: 24px;">We retain your personal data for as long as your account is active. Upon account deletion, we remove your personal data within 30 days, except where required by law.</p>
+
+        <h3 style="font-size: 1.2rem; font-weight: 700; margin-bottom: 12px; color: var(--primary);">8. Updates to This Policy</h3>
+        <p style="color: var(--text-light); line-height: 1.9;">We may update this policy from time to time. We will notify you of significant changes via email or a prominent notice on our platform. Continued use of LearnHub after changes constitutes acceptance of the updated policy.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Terms of Service Section -->
+  <section class="section" id="terms">
+    <div class="container">
+      <div class="section-header scroll-reveal">
+        <span class="section-badge">📜 Terms of Service</span>
+        <h2 class="section-title">Terms & Conditions</h2>
+        <p class="section-subtitle">Last updated: April 1, 2026</p>
+      </div>
+      <div style="max-width: 800px; margin: 0 auto; background: var(--bg-card); border-radius: var(--radius-lg); padding: 48px; border: 1px solid var(--border);" class="scroll-reveal policy-content">
+        <h3 style="font-size: 1.2rem; font-weight: 700; margin-bottom: 12px; color: var(--primary);">1. Acceptance of Terms</h3>
+        <p style="color: var(--text-light); line-height: 1.9; margin-bottom: 24px;">By accessing and using LearnHub, you agree to be bound by these Terms of Service. If you do not agree with any part of these terms, you should not use our platform. These terms apply to all users, including students, instructors, and visitors.</p>
+
+        <h3 style="font-size: 1.2rem; font-weight: 700; margin-bottom: 12px; color: var(--primary);">2. User Accounts</h3>
+        <p style="color: var(--text-light); line-height: 1.9; margin-bottom: 24px;">You must provide accurate and complete information during registration. You are responsible for maintaining the confidentiality of your account credentials. One person may only create one account. Sharing account access is prohibited.</p>
+
+        <h3 style="font-size: 1.2rem; font-weight: 700; margin-bottom: 12px; color: var(--primary);">3. Course Content & License</h3>
+        <p style="color: var(--text-light); line-height: 1.9; margin-bottom: 24px;">Upon enrollment, you receive a non-exclusive, non-transferable license to access course content for personal, non-commercial use. You may not reproduce, distribute, modify, or create derivative works from any course content without explicit permission.</p>
+
+        <h3 style="font-size: 1.2rem; font-weight: 700; margin-bottom: 12px; color: var(--primary);">4. Payment & Refunds</h3>
+        <p style="color: var(--text-light); line-height: 1.9; margin-bottom: 24px;">Payments are processed securely through our payment partners. All prices are displayed in Indian Rupees (₹). We offer a 7-day refund policy from the date of enrollment. Refunds are processed within 5-7 business days to the original payment method.</p>
+
+        <h3 style="font-size: 1.2rem; font-weight: 700; margin-bottom: 12px; color: var(--primary);">5. Code of Conduct</h3>
+        <p style="color: var(--text-light); line-height: 1.9; margin-bottom: 24px;">Users must maintain respectful behavior. Harassment, spamming, posting inappropriate content, or any form of academic dishonesty is strictly prohibited. Violations may result in account suspension or termination.</p>
+
+        <h3 style="font-size: 1.2rem; font-weight: 700; margin-bottom: 12px; color: var(--primary);">6. Intellectual Property</h3>
+        <p style="color: var(--text-light); line-height: 1.9; margin-bottom: 24px;">All content on LearnHub, including text, graphics, logos, icons, images, audio, video, and software, is the property of LearnHub or its content providers and is protected by copyright and intellectual property laws.</p>
+
+        <h3 style="font-size: 1.2rem; font-weight: 700; margin-bottom: 12px; color: var(--primary);">7. Limitation of Liability</h3>
+        <p style="color: var(--text-light); line-height: 1.9; margin-bottom: 24px;">LearnHub provides educational content "as is" without warranties of any kind. We are not liable for any indirect, incidental, or consequential damages arising from your use of our platform. Our total liability shall not exceed the amount you paid for the relevant course.</p>
+
+        <h3 style="font-size: 1.2rem; font-weight: 700; margin-bottom: 12px; color: var(--primary);">8. Account Termination</h3>
+        <p style="color: var(--text-light); line-height: 1.9; margin-bottom: 24px;">We reserve the right to suspend or terminate accounts that violate these terms. You may also delete your account at any time by contacting support. Upon termination, access to enrolled courses will be revoked.</p>
+
+        <h3 style="font-size: 1.2rem; font-weight: 700; margin-bottom: 12px; color: var(--primary);">9. Governing Law</h3>
+        <p style="color: var(--text-light); line-height: 1.9; margin-bottom: 24px;">These terms are governed by the laws of India. Any disputes shall be resolved in the courts of Pune, Maharashtra. Both parties agree to submit to the exclusive jurisdiction of these courts.</p>
+
+        <h3 style="font-size: 1.2rem; font-weight: 700; margin-bottom: 12px; color: var(--primary);">10. Changes to Terms</h3>
+        <p style="color: var(--text-light); line-height: 1.9;">We reserve the right to modify these terms at any time. Users will be notified of material changes. Continued use of LearnHub following changes indicates acceptance. We recommend reviewing these terms periodically.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Still Need Help CTA -->
+  <section class="section" style="background: var(--gradient-hero); text-align: center; color: #fff;">
+    <div class="container scroll-reveal">
+      <h2 style="font-size: 2.2rem; font-weight: 800; margin-bottom: 16px;">Still Need Help?</h2>
+      <p style="font-size: 1.1rem; opacity: 0.7; margin-bottom: 40px; max-width: 500px; margin-left: auto; margin-right: auto;">Our support team is here to help. Reach out and we'll get back to you within 24 hours.</p>
+      <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+        <a href="company.html#contact" class="btn btn-white btn-lg">Contact Us →</a>
+        <a href="mailto:support@learnhub.com" class="btn btn-lg" style="background: rgba(255,255,255,0.15); color: #fff; border: 1px solid rgba(255,255,255,0.3);">Email Support</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3 style="display: flex; align-items: center; gap: 10px;"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: #ffffff;"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg> LearnHub</h3>
+          <p>Empowering learners worldwide with premium online education.</p>
+        </div>
+        <div class="footer-column">
+          <h4>Platform</h4>
+          <ul>
+            <li><a href="courses.html">Browse Courses</a></li>
+            <li><a href="dashboard.html">My Dashboard</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="company.html#about">About Us</a></li>
+            <li><a href="company.html#careers">Careers</a></li>
+            <li><a href="company.html#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="support.html#help">Help Center</a></li>
+            <li><a href="support.html#privacy">Privacy Policy</a></li>
+            <li><a href="support.html#terms">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 LearnHub. All rights reserved.</span>
+        <span>Developed by Pranjali Sangve</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/utils.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      if (window.location.hash) {
+        setTimeout(() => {
+          const el = document.querySelector(window.location.hash);
+          if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }, 300);
+      }
+    });
+
+    function toggleFAQ(item) {
+      const isOpen = item.classList.contains('open');
+      // Close all others
+      document.querySelectorAll('.faq-item.open').forEach(el => el.classList.remove('open'));
+      if (!isOpen) item.classList.add('open');
+    }
+  </script>
+
+  <style>
+    .faq-item {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      margin-bottom: 12px;
+      overflow: hidden;
+      cursor: pointer;
+      transition: var(--transition);
+    }
+    .faq-item:hover {
+      border-color: var(--primary-light);
+      box-shadow: var(--shadow-sm);
+    }
+    .faq-question {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 24px;
+    }
+    .faq-question h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      margin: 0;
+    }
+    .faq-toggle {
+      font-size: 1.4rem;
+      font-weight: 300;
+      color: var(--primary);
+      transition: transform 0.3s;
+      flex-shrink: 0;
+      margin-left: 16px;
+    }
+    .faq-item.open .faq-toggle {
+      transform: rotate(45deg);
+    }
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease, padding 0.4s ease;
+    }
+    .faq-item.open .faq-answer {
+      max-height: 300px;
+      padding: 0 24px 20px;
+    }
+    .faq-answer p {
+      color: var(--text-light);
+      line-height: 1.8;
+      font-size: 0.95rem;
+    }
+    .faq-answer a {
+      color: var(--primary);
+    }
+
+    @media (max-width: 768px) {
+      .policy-content {
+        padding: 28px 20px !important;
+      }
+    }
+  </style>
+</body>
+</html>
+

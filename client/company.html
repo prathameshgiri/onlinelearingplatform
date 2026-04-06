@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Learn about LearnHub - Our mission, team, careers, and how to contact us.">
+  <title>Company - LearnHub</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
+</head>
+<body>
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar scrolled" id="navbar">
+    <div class="nav-content">
+      <a href="index.html" class="nav-logo">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--primary);"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+        <span>LearnHub</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="dark-mode-toggle" id="darkModeToggle" title="Toggle Dark Mode">🌙</button>
+        <div id="authButtons">
+          <a href="login.html" class="nav-auth-btn nav-login-btn">Log In</a>
+          <a href="register.html" class="nav-auth-btn nav-signup-btn">Sign Up</a>
+        </div>
+        <div class="nav-user-menu" id="userMenu" style="display: none;">
+          <div class="nav-user-avatar" id="userAvatar">J</div>
+          <span class="nav-user-name" id="userName">John</span>
+          <button class="nav-auth-btn nav-login-btn" id="logoutBtn" style="font-size: 0.85rem;">Logout</button>
+        </div>
+        <button class="nav-mobile-btn" id="mobileMenuBtn">☰</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Company Hero -->
+  <section style="background: var(--gradient-hero); padding: 140px 0 80px; color: #fff; position: relative; overflow: hidden;">
+    <div style="position: absolute; width: 500px; height: 500px; border-radius: 50%; background: radial-gradient(circle, rgba(108,92,231,0.25) 0%, transparent 70%); top: -200px; right: -100px;"></div>
+    <div class="container" style="position: relative; z-index: 2;">
+      <span class="section-badge" style="margin-bottom: 16px;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:inline-block; vertical-align:middle; margin-right:6px;"><rect width="16" height="20" x="4" y="2" rx="2" ry="2"/><path d="M9 22v-4h6v4"/><path d="M8 6h.01"/><path d="M16 6h.01"/><path d="M12 6h.01"/><path d="M12 10h.01"/><path d="M12 14h.01"/><path d="M16 10h.01"/><path d="M16 14h.01"/><path d="M8 10h.01"/><path d="M8 14h.01"/></svg>Our Company</span>
+      <h1 class="page-hero-title" style="font-weight: 800; margin-bottom: 16px;">About LearnHub</h1>
+      <p style="font-size: 1.15rem; opacity: 0.7; max-width: 600px;">We're on a mission to make world-class education accessible to everyone, everywhere. Learn about our story, team, and vision for the future of learning.</p>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header scroll-reveal">
+        <span class="section-badge">About Us</span>
+        <h2 class="section-title">Our Story</h2>
+      </div>
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center;" class="scroll-reveal company-grid">
+        <div>
+          <h3 style="font-size: 1.5rem; font-weight: 700; margin-bottom: 20px; color: var(--primary);">Empowering Learners Since 2020</h3>
+          <p style="color: var(--text-light); line-height: 1.9; margin-bottom: 16px;">
+            LearnHub was founded with a simple belief: that quality education should be available to anyone willing to learn. What started as a small collection of programming courses has grown into a comprehensive platform offering 200+ courses across technology, design, business, and more.
+          </p>
+          <p style="color: var(--text-light); line-height: 1.9; margin-bottom: 16px;">
+            Our expert instructors come from leading companies like Google, Microsoft, Amazon, and Meta. They bring real-world experience directly to your screen, ensuring every lesson is practical, relevant, and immediately applicable.
+          </p>
+          <p style="color: var(--text-light); line-height: 1.9;">
+            Today, LearnHub serves over 50,000 students across 120+ countries, with a 95% satisfaction rate and thousands of success stories from learners who've transformed their careers through our platform.
+          </p>
+        </div>
+        <div style="background: var(--bg-card); border-radius: var(--radius-lg); padding: 40px; border: 1px solid var(--border);">
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px;">
+            <div style="text-align: center;">
+              <div style="font-size: 2.5rem; font-weight: 800; color: var(--primary);">50K+</div>
+              <div style="font-size: 0.9rem; color: var(--text-light); margin-top: 4px;">Students Worldwide</div>
+            </div>
+            <div style="text-align: center;">
+              <div style="font-size: 2.5rem; font-weight: 800; color: var(--secondary);">200+</div>
+              <div style="font-size: 0.9rem; color: var(--text-light); margin-top: 4px;">Expert Courses</div>
+            </div>
+            <div style="text-align: center;">
+              <div style="font-size: 2.5rem; font-weight: 800; color: var(--accent);">120+</div>
+              <div style="font-size: 0.9rem; color: var(--text-light); margin-top: 4px;">Countries Reached</div>
+            </div>
+            <div style="text-align: center;">
+              <div style="font-size: 2.5rem; font-weight: 800; color: #fdcb6e;">95%</div>
+              <div style="font-size: 0.9rem; color: var(--text-light); margin-top: 4px;">Satisfaction Rate</div>
+            </div>
+          </div>
+          <div style="margin-top: 30px; padding-top: 30px; border-top: 1px solid var(--border); text-align: center;">
+            <p style="font-style: italic; color: var(--text-light); font-size: 0.95rem; line-height: 1.7;">"Our vision is to create a world where anyone, regardless of background or location, can access the knowledge they need to achieve their dreams."</p>
+            <p style="font-weight: 600; margin-top: 12px; color: var(--primary);">— LearnHub Founders</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Our Values -->
+  <section class="section" style="background: var(--bg);">
+    <div class="container">
+      <div class="section-header scroll-reveal">
+        <span class="section-badge">Our Values</span>
+        <h2 class="section-title">What Drives Us</h2>
+      </div>
+      <div class="features-grid scroll-reveal">
+        <div class="feature-card">
+          <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></div>
+          <h3 class="feature-title">Quality First</h3>
+          <p class="feature-text">Every course is carefully vetted and reviewed. We maintain the highest standards of educational content, with regular updates to keep pace with industry trends.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/><path d="M2 12h20"/></svg></div>
+          <h3 class="feature-title">Accessibility</h3>
+          <p class="feature-text">Education should have no barriers. We offer affordable pricing, scholarships, and free resources to ensure everyone has the opportunity to learn.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m11 17 2 2a1 1 0 1 0 3-3"/><path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4"/><path d="m21 3-6 6"/><path d="m21 16-1.85 1.56a4.92 4.92 0 0 1-6.43-.73l-.1-.1a4 4 0 0 1-.22-5.41L14 9"/><path d="m9 10 1.5 1.5"/><path d="M3 21l9-9"/><path d="M3 16l5 5"/></svg></div>
+          <h3 class="feature-title">Community</h3>
+          <p class="feature-text">Learning is better together. Our vibrant community of students and mentors supports each other through forums, study groups, and networking events.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Careers Section -->
+  <section class="section" id="careers">
+    <div class="container">
+      <div class="section-header scroll-reveal">
+        <span class="section-badge">Careers</span>
+        <h2 class="section-title">Join Our Team</h2>
+        <p class="section-subtitle">Help us shape the future of education. We're always looking for passionate people.</p>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 24px;" class="scroll-reveal">
+        <div style="background: var(--bg-card); border-radius: var(--radius-lg); padding: 32px; border: 1px solid var(--border); transition: var(--transition);" onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='var(--shadow-md)'" onmouseout="this.style.transform=''; this.style.boxShadow=''">
+          <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px;">
+            <span style="padding: 4px 14px; background: rgba(108,92,231,0.1); color: var(--primary); border-radius: 50px; font-size: 0.75rem; font-weight: 600;">Engineering</span>
+            <span style="font-size: 0.8rem; color: var(--text-muted);">Full Time</span>
+          </div>
+          <h3 style="font-size: 1.15rem; font-weight: 700; margin-bottom: 8px;">Senior Full-Stack Developer</h3>
+          <p style="color: var(--text-light); font-size: 0.9rem; line-height: 1.7; margin-bottom: 16px;">Build and scale our learning platform. Experience with React, Node.js, and cloud infrastructure required.</p>
+          <div style="display: flex; gap: 16px; font-size: 0.8rem; color: var(--text-muted);">
+            <span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:inline-block; vertical-align:middle; margin-right:4px;"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> Remote / Mumbai</span>
+            <span>💰 ₹15-25 LPA</span>
+          </div>
+        </div>
+        <div style="background: var(--bg-card); border-radius: var(--radius-lg); padding: 32px; border: 1px solid var(--border); transition: var(--transition);" onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='var(--shadow-md)'" onmouseout="this.style.transform=''; this.style.boxShadow=''">
+          <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px;">
+            <span style="padding: 4px 14px; background: rgba(0,206,201,0.1); color: var(--secondary); border-radius: 50px; font-size: 0.75rem; font-weight: 600;">Design</span>
+            <span style="font-size: 0.8rem; color: var(--text-muted);">Full Time</span>
+          </div>
+          <h3 style="font-size: 1.15rem; font-weight: 700; margin-bottom: 8px;">UI/UX Designer</h3>
+          <p style="color: var(--text-light); font-size: 0.9rem; line-height: 1.7; margin-bottom: 16px;">Design intuitive learning experiences. Strong portfolio in web/mobile design with Figma expertise required.</p>
+          <div style="display: flex; gap: 16px; font-size: 0.8rem; color: var(--text-muted);">
+            <span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:inline-block; vertical-align:middle; margin-right:4px;"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> Remote / Pune</span>
+            <span>💰 ₹10-18 LPA</span>
+          </div>
+        </div>
+        <div style="background: var(--bg-card); border-radius: var(--radius-lg); padding: 32px; border: 1px solid var(--border); transition: var(--transition);" onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='var(--shadow-md)'" onmouseout="this.style.transform=''; this.style.boxShadow=''">
+          <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px;">
+            <span style="padding: 4px 14px; background: rgba(253,121,168,0.1); color: var(--accent); border-radius: 50px; font-size: 0.75rem; font-weight: 600;">Content</span>
+            <span style="font-size: 0.8rem; color: var(--text-muted);">Full Time</span>
+          </div>
+          <h3 style="font-size: 1.15rem; font-weight: 700; margin-bottom: 8px;">Course Content Manager</h3>
+          <p style="color: var(--text-light); font-size: 0.9rem; line-height: 1.7; margin-bottom: 16px;">Curate and manage our course catalog. Work with instructors to ensure content quality and relevance.</p>
+          <div style="display: flex; gap: 16px; font-size: 0.8rem; color: var(--text-muted);">
+            <span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:inline-block; vertical-align:middle; margin-right:4px;"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> Hybrid / Delhi</span>
+            <span>💰 ₹8-14 LPA</span>
+          </div>
+        </div>
+        <div style="background: var(--bg-card); border-radius: var(--radius-lg); padding: 32px; border: 1px solid var(--border); transition: var(--transition);" onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='var(--shadow-md)'" onmouseout="this.style.transform=''; this.style.boxShadow=''">
+          <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px;">
+            <span style="padding: 4px 14px; background: rgba(253,203,110,0.2); color: #e67e22; border-radius: 50px; font-size: 0.75rem; font-weight: 600;">Marketing</span>
+            <span style="font-size: 0.8rem; color: var(--text-muted);">Full Time</span>
+          </div>
+          <h3 style="font-size: 1.15rem; font-weight: 700; margin-bottom: 8px;">Digital Marketing Specialist</h3>
+          <p style="color: var(--text-light); font-size: 0.9rem; line-height: 1.7; margin-bottom: 16px;">Drive growth through SEO, content marketing, and paid campaigns. Data-driven mindset essential.</p>
+          <div style="display: flex; gap: 16px; font-size: 0.8rem; color: var(--text-muted);">
+            <span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:inline-block; vertical-align:middle; margin-right:4px;"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> Remote / Bangalore</span>
+            <span>💰 ₹7-12 LPA</span>
+          </div>
+        </div>
+      </div>
+      <div style="text-align: center; margin-top: 40px;" class="scroll-reveal">
+        <p style="color: var(--text-light); margin-bottom: 16px;">Don't see a role that fits? We're always happy to hear from talented people.</p>
+        <a href="mailto:careers@learnhub.com" class="btn btn-primary">Send Your Resume →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section" id="contact" style="background: var(--bg);">
+    <div class="container">
+      <div class="section-header scroll-reveal">
+        <span class="section-badge">Contact Us</span>
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-subtitle">Have a question or feedback? We'd love to hear from you.</p>
+      </div>
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px;" class="scroll-reveal company-grid">
+        <div style="background: var(--bg-card); border-radius: var(--radius-lg); padding: 40px; border: 1px solid var(--border);">
+          <h3 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 24px;">Send us a message</h3>
+          <form id="contactForm" onsubmit="handleContact(event)">
+            <div style="margin-bottom: 20px;">
+              <label style="display: block; font-size: 0.85rem; font-weight: 600; margin-bottom: 8px;">Full Name</label>
+              <input type="text" placeholder="Your name" required style="width: 100%; padding: 14px 18px; border: 2px solid var(--border); border-radius: var(--radius-md); background: var(--bg); color: var(--text); font-size: 0.95rem; font-family: var(--font); transition: var(--transition);" onfocus="this.style.borderColor='var(--primary)'" onblur="this.style.borderColor='var(--border)'">
+            </div>
+            <div style="margin-bottom: 20px;">
+              <label style="display: block; font-size: 0.85rem; font-weight: 600; margin-bottom: 8px;">Email Address</label>
+              <input type="email" placeholder="your@email.com" required style="width: 100%; padding: 14px 18px; border: 2px solid var(--border); border-radius: var(--radius-md); background: var(--bg); color: var(--text); font-size: 0.95rem; font-family: var(--font); transition: var(--transition);" onfocus="this.style.borderColor='var(--primary)'" onblur="this.style.borderColor='var(--border)'">
+            </div>
+            <div style="margin-bottom: 20px;">
+              <label style="display: block; font-size: 0.85rem; font-weight: 600; margin-bottom: 8px;">Subject</label>
+              <select style="width: 100%; padding: 14px 18px; border: 2px solid var(--border); border-radius: var(--radius-md); background: var(--bg); color: var(--text); font-size: 0.95rem; font-family: var(--font);">
+                <option>General Inquiry</option>
+                <option>Course Question</option>
+                <option>Technical Support</option>
+                <option>Partnership</option>
+                <option>Feedback</option>
+              </select>
+            </div>
+            <div style="margin-bottom: 20px;">
+              <label style="display: block; font-size: 0.85rem; font-weight: 600; margin-bottom: 8px;">Message</label>
+              <textarea placeholder="Tell us how we can help..." required rows="5" style="width: 100%; padding: 14px 18px; border: 2px solid var(--border); border-radius: var(--radius-md); background: var(--bg); color: var(--text); font-size: 0.95rem; font-family: var(--font); resize: vertical; transition: var(--transition);" onfocus="this.style.borderColor='var(--primary)'" onblur="this.style.borderColor='var(--border)'"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">Send Message →</button>
+          </form>
+        </div>
+        <div>
+          <div style="background: var(--bg-card); border-radius: var(--radius-lg); padding: 32px; border: 1px solid var(--border); margin-bottom: 24px;">
+            <div style="font-size: 1.5rem; margin-bottom: 12px;">✉️</div>
+            <h4 style="font-size: 1.05rem; font-weight: 700; margin-bottom: 8px;">Email Us</h4>
+            <p style="color: var(--text-light); font-size: 0.9rem; margin-bottom: 4px;">General: <a href="mailto:hello@learnhub.com" style="color: var(--primary);">hello@learnhub.com</a></p>
+            <p style="color: var(--text-light); font-size: 0.9rem;">Support: <a href="mailto:support@learnhub.com" style="color: var(--primary);">support@learnhub.com</a></p>
+          </div>
+          <div style="background: var(--bg-card); border-radius: var(--radius-lg); padding: 32px; border: 1px solid var(--border); margin-bottom: 24px;">
+            <div style="font-size: 1.5rem; margin-bottom: 12px;">📞</div>
+            <h4 style="font-size: 1.05rem; font-weight: 700; margin-bottom: 8px;">Call Us</h4>
+            <p style="color: var(--text-light); font-size: 0.9rem; margin-bottom: 4px;">India: +91 98765 43210</p>
+            <p style="color: var(--text-light); font-size: 0.9rem;">Mon-Fri, 9 AM - 6 PM IST</p>
+          </div>
+          <div style="background: var(--bg-card); border-radius: var(--radius-lg); padding: 32px; border: 1px solid var(--border); margin-bottom: 24px;">
+            <div style="font-size: 1.5rem; margin-bottom: 12px;">📍</div>
+            <h4 style="font-size: 1.05rem; font-weight: 700; margin-bottom: 8px;">Visit Us</h4>
+            <p style="color: var(--text-light); font-size: 0.9rem;">LearnHub Technologies Pvt. Ltd.</p>
+            <p style="color: var(--text-light); font-size: 0.9rem;">Hinjewadi IT Park, Phase 2</p>
+            <p style="color: var(--text-light); font-size: 0.9rem;">Pune, Maharashtra 411057</p>
+          </div>
+          <div style="background: var(--bg-card); border-radius: var(--radius-lg); padding: 32px; border: 1px solid var(--border);">
+            <div style="font-size: 1.5rem; margin-bottom: 12px;">🌐</div>
+            <h4 style="font-size: 1.05rem; font-weight: 700; margin-bottom: 8px;">Follow Us</h4>
+            <div style="display: flex; gap: 12px; margin-top: 8px;">
+              <a href="#" style="width: 40px; height: 40px; border-radius: 50%; background: rgba(108,92,231,0.1); display: flex; align-items: center; justify-content: center; font-size: 1.1rem; transition: var(--transition);" onmouseover="this.style.background='var(--primary)'; this.style.color='#fff'" onmouseout="this.style.background='rgba(108,92,231,0.1)'; this.style.color=''"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+              <a href="#" style="width: 40px; height: 40px; border-radius: 50%; background: rgba(108,92,231,0.1); display: flex; align-items: center; justify-content: center; font-size: 1.1rem; transition: var(--transition);" onmouseover="this.style.background='var(--primary)'; this.style.color='#fff'" onmouseout="this.style.background='rgba(108,92,231,0.1)'; this.style.color=''"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg></a>
+              <a href="#" style="width: 40px; height: 40px; border-radius: 50%; background: rgba(108,92,231,0.1); display: flex; align-items: center; justify-content: center; font-size: 1.1rem; transition: var(--transition);" onmouseover="this.style.background='var(--primary)'; this.style.color='#fff'" onmouseout="this.style.background='rgba(108,92,231,0.1)'; this.style.color=''"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+              <a href="#" style="width: 40px; height: 40px; border-radius: 50%; background: rgba(108,92,231,0.1); display: flex; align-items: center; justify-content: center; font-size: 1.1rem; transition: var(--transition);" onmouseover="this.style.background='var(--primary)'; this.style.color='#fff'" onmouseout="this.style.background='rgba(108,92,231,0.1)'; this.style.color=''"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3 style="display: flex; align-items: center; gap: 10px;"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: #ffffff;"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg> LearnHub</h3>
+          <p>Empowering learners worldwide with premium online education. Master new skills and transform your career.</p>
+        </div>
+        <div class="footer-column">
+          <h4>Platform</h4>
+          <ul>
+            <li><a href="courses.html">Browse Courses</a></li>
+            <li><a href="dashboard.html">My Dashboard</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="company.html#about">About Us</a></li>
+            <li><a href="company.html#careers">Careers</a></li>
+            <li><a href="company.html#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="support.html#help">Help Center</a></li>
+            <li><a href="support.html#privacy">Privacy Policy</a></li>
+            <li><a href="support.html#terms">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 LearnHub. All rights reserved.</span>
+        <span>Developed by Pranjali Sangve</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/utils.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Smooth scroll to hash sections
+      if (window.location.hash) {
+        setTimeout(() => {
+          const el = document.querySelector(window.location.hash);
+          if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }, 300);
+      }
+    });
+
+    async function handleContact(e) {
+      e.preventDefault();
+      const form = e.target;
+      const btn = form.querySelector('button[type="submit"]');
+      
+      const payload = {
+        name: form.elements[0].value,
+        email: form.elements[1].value,
+        subject: form.elements[2].value,
+        message: form.elements[3].value
+      };
+
+      const prevText = btn.innerHTML;
+      btn.innerHTML = 'Sending...';
+      btn.disabled = true;
+
+      try {
+        await api('/contacts', {
+          method: 'POST',
+          body: JSON.stringify(payload)
+        });
+        
+        showToast('Thank you! Your message has been sent successfully.', 'success');
+        form.reset();
+      } catch (err) {
+        showToast(err.message, 'error');
+      } finally {
+        btn.innerHTML = prevText;
+        btn.disabled = false;
+      }
+    }
+  </script>
+
+  <style>
+    @media (max-width: 768px) {
+      .company-grid {
+        grid-template-columns: 1fr !important;
+        gap: 32px !important;
+      }
+    }
+    @media (max-width: 480px) {
+      .company-grid {
+        gap: 24px !important;
+      }
+    }
+  </style>
+</body>
+</html>
+

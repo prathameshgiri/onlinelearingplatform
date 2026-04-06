@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="LearnHub Admin Panel - Manage your learning platform">
+  <title>Admin Login - LearnHub</title>
+  <link rel="stylesheet" href="css/admin.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>ðŸ›¡ï¸</text></svg>">
+</head>
+<body>
+  <div class="toast-container" id="toastContainer"></div>
+
+  <div class="admin-auth-page">
+    <div class="admin-auth-card">
+      <div class="admin-auth-header">
+        <div class="admin-auth-icon">ðŸ›¡ï¸</div>
+        <h2>Admin Panel</h2>
+        <p>Sign in to manage your platform</p>
+      </div>
+
+      <form class="admin-auth-form" id="adminLoginForm" onsubmit="handleAdminLogin(event)">
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" placeholder="Enter admin email" required>
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="Enter password" required>
+        </div>
+        <button type="submit" class="admin-auth-submit" id="submitBtn">
+          Sign In to Dashboard
+        </button>
+      </form>
+
+      <div class="demo-credentials">
+        <strong>Demo Credentials:</strong><br>
+        Email: admin@learnhub.com<br>
+        Password: admin123
+      </div>
+    </div>
+  </div>
+
+  <script src="js/admin-utils.js"></script>
+  <script>
+    // Check if already logged in
+    document.addEventListener('DOMContentLoaded', () => {
+      const admin = getAdmin();
+      if (admin) {
+        window.location.href = 'dashboard.html';
+      }
+    });
+
+    async function handleAdminLogin(e) {
+      e.preventDefault();
+      const email = document.getElementById('email').value.trim();
+      const password = document.getElementById('password').value;
+      const btn = document.getElementById('submitBtn');
+
+      btn.disabled = true;
+      btn.textContent = 'Signing in...';
+
+      try {
+        const data = await adminApi('/auth/admin-login', {
+          method: 'POST',
+          body: JSON.stringify({ email, password })
+        });
+        setAdmin(data.admin);
+        showAdminToast('Login successful! Redirecting...', 'success');
+        setTimeout(() => window.location.href = 'dashboard.html', 800);
+      } catch (err) {
+        showAdminToast(err.message, 'error');
+        btn.disabled = false;
+        btn.textContent = 'Sign In to Dashboard';
+      }
+    }
+  </script>
+</body>
+</html>
+
