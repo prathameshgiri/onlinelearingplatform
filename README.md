@@ -200,7 +200,7 @@ A modern, full-stack online learning platform with a student portal and admin da
 📧 **Email:** [contact@prathameshgiri.in](mailto:contact@prathameshgiri.in)  
 🌐 **Website:** [https://prathameshgiri.in/](https://prathameshgiri.in/) | [https://build.prathameshgiri.in/](https://build.prathameshgiri.in/)
 
-**Developed for:** Pranjali Sangve
+**Developed for:** Pranjali Sangave 
 
 ---
 
