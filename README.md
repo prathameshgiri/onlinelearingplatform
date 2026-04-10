@@ -180,19 +180,6 @@ A modern, full-stack online learning platform with a student portal and admin da
 |--------|----------|-------------|
 | GET | `/api/analytics` | Get platform analytics |
 
-## 📸 Screenshots
-
-### Student Portal
-![Landing Page](screenshots/landing.png)
-<br>
-![Course Catalog](screenshots/catalog.png)
-<br>
-![Student Dashboard](screenshots/dashboard.png)
-
-### Admin Panel
-![Admin Dashboard](screenshots/admin-dashboard.png)
-<br>
-![User Management](screenshots/admin-users.png)
 
 ## 👩‍💻 Credits
 
@@ -200,8 +187,8 @@ A modern, full-stack online learning platform with a student portal and admin da
 📧 **Email:** [contact@prathameshgiri.in](mailto:contact@prathameshgiri.in)  
 🌐 **Website:** [https://prathameshgiri.in/](https://prathameshgiri.in/) | [https://build.prathameshgiri.in/](https://build.prathameshgiri.in/)
 
-**Developed for:** Pranjali Sangve
+**Developed for:** Pranjali Sangave & Sanjivani Sarwade
 
 ---
 
-*Built with ❤️ for the Online Learning Platform project*
+*Copyright © 2026 Pranjali Sangave & Sanjivani Sarwade. All Rights Reserved.*
